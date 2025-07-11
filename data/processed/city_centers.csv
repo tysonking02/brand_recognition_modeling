@@ -1,0 +1,1174 @@
+,market,rank,total_units,total_properties,lat,lon,submarket
+0,"Abilene, TX",1,1184.0,5,32.4,-99.77,Abilene
+1,"Abilene, TX",2,500.0,3,32.42,-99.79,Abilene
+2,"Abilene, TX",3,498.0,1,32.42,-99.78,Abilene
+3,"Akron, OH",1,1483.0,2,41.14,-81.54,Merriman Valley
+4,"Akron, OH",2,751.0,2,41.14,-81.45,Cuyahoga Falls
+5,"Akron, OH",3,679.0,4,41.14,-81.47,Cuyahoga Falls
+6,"Albany, GA",1,727.0,5,31.61,-84.21,Albany/Southwest
+7,"Albany, GA",2,311.0,2,31.58,-84.2,Albany/Southwest
+8,"Albany, GA",3,301.0,1,31.61,-84.23,Albany/Southwest
+9,"Albany, NY",1,1031.0,9,42.81,-73.94,Hamilton Hill
+10,"Albany, NY",2,952.0,1,42.93,-73.81,Outer Saratoga County
+11,"Albany, NY",3,890.0,5,42.67,-73.78,Beverwyck
+12,"Albany, OR",1,550.0,2,44.64,-123.04,Linn County
+13,"Albany, OR",2,514.0,5,44.62,-123.08,Linn County
+14,"Albany, OR",3,376.0,4,44.63,-123.08,Linn County
+15,"Albuquerque, NM",1,2029.0,11,35.14,-106.58,Del Norte
+16,"Albuquerque, NM",2,1562.0,13,35.06,-106.58,South San Pedro
+17,"Albuquerque, NM",3,1281.0,5,35.1,-106.57,Uptown Albuquerque
+18,"Alexandria, LA",1,384.0,1,31.32,-92.48,Louisiana North Area
+19,"Alexandria, LA",2,304.0,1,31.29,-92.5,Louisiana North Area
+20,"Alexandria, LA",3,248.0,1,31.33,-92.39,Louisiana North Area
+21,"Altoona, PA",1,321.0,2,40.52,-78.4,Downtown Altoona
+22,"Altoona, PA",2,246.0,2,40.44,-78.38,Altoona/Johnstown
+23,"Altoona, PA",3,212.0,1,40.49,-78.39,Altoona/Johnstown
+24,"Amarillo, TX",1,1390.0,5,35.16,-101.88,Amarillo
+25,"Amarillo, TX",2,986.0,6,35.19,-101.91,Amarillo
+26,"Amarillo, TX",3,704.0,3,35.16,-101.92,Amarillo
+27,"Ames, IA",1,644.0,3,42.01,-93.67,West Ames
+28,"Ames, IA",2,500.0,6,42.02,-93.67,West Ames
+29,"Ames, IA",3,480.0,1,41.99,-93.61,South Ames
+30,"Anchorage, AK",1,674.0,2,61.23,-149.86,Government Hill
+31,"Anchorage, AK",2,553.0,3,61.17,-149.84,Campbell Park
+32,"Anchorage, AK",3,421.0,3,61.2,-149.86,North Star
+33,"Ann Arbor, MI",1,2257.0,6,42.25,-83.66,Ypsilanti
+34,"Ann Arbor, MI",2,1602.0,3,42.25,-83.74,South Ann Arbor
+35,"Ann Arbor, MI",3,1026.0,1,42.21,-83.57,Ford Lake
+36,"Anniston-Oxford, AL",1,297.0,4,33.63,-85.8,Gadsden/Anniston Area
+37,"Anniston-Oxford, AL",2,208.0,2,33.79,-85.76,Gadsden/Anniston Area
+38,"Anniston-Oxford, AL",3,203.0,2,33.82,-85.77,Gadsden/Anniston Area
+39,"Appleton, WI",1,544.0,2,44.3,-88.44,Outer Outagamie County
+40,"Appleton, WI",2,438.0,2,44.27,-88.49,Outer Outagamie County
+41,"Appleton, WI",3,430.0,2,44.21,-88.36,Calumet County
+42,"Asheville, NC",1,960.0,3,35.48,-82.57,Avery Creek
+43,"Asheville, NC",2,950.0,7,35.59,-82.56,Downtown Asheville
+44,"Asheville, NC",3,712.0,2,35.51,-82.52,Blue Ridge
+45,"Athens, GA",1,1188.0,1,33.95,-83.47,Westside Athens
+46,"Athens, GA",2,1045.0,3,33.94,-83.35,Eastside Athens
+47,"Athens, GA",3,772.0,6,33.96,-83.38,Downtown Athens
+48,"Atlanta, GA",1,5236.0,17,33.84,-84.38,Garden Hills
+49,"Atlanta, GA",2,5093.0,8,33.92,-84.35,Perimeter Center
+50,"Atlanta, GA",3,4598.0,13,33.78,-84.39,Central Midtown
+51,"Atlantic City, NJ",1,1956.0,14,39.37,-74.43,Westside
+52,"Atlantic City, NJ",2,1001.0,5,39.37,-74.41,Uptown Atlantic City
+53,"Atlantic City, NJ",3,734.0,2,39.36,-74.45,Bader Field
+54,"Auburn-Opelika, AL",1,600.0,1,32.54,-85.52,Lee County
+55,"Auburn-Opelika, AL",2,346.0,1,32.51,-85.0,Lee County
+56,"Auburn-Opelika, AL",3,342.0,1,32.53,-85.08,Lee County
+57,"Augusta, GA",1,1258.0,4,33.47,-82.06,Forest Hills
+58,"Augusta, GA",2,1195.0,3,33.48,-82.11,Belair
+59,"Augusta, GA",3,1056.0,5,33.52,-82.04,Westside
+60,"Austin, TX",1,4900.0,10,30.4,-97.72,Domain
+61,"Austin, TX",2,4307.0,15,30.27,-97.75,Market District
+62,"Austin, TX",3,4290.0,17,30.23,-97.73,East Riverside-Oltorf
+63,"Bakersfield, CA",1,770.0,6,35.33,-119.04,Wible Orchard
+64,"Bakersfield, CA",2,739.0,6,35.35,-119.06,Wible Orchard
+65,"Bakersfield, CA",3,596.0,3,35.4,-119.09,Riverlakes
+66,"Baltimore, MD",1,5276.0,29,39.29,-76.62,Historic Baltimore
+67,"Baltimore, MD",2,2904.0,14,39.29,-76.61,Historic Baltimore
+68,"Baltimore, MD",3,2474.0,8,39.3,-76.45,Essex
+69,"Bangor, ME",1,194.0,1,44.82,-68.79,Maine North & Bangor
+70,"Bangor, ME",2,151.0,2,44.81,-68.8,Maine North & Bangor
+71,"Bangor, ME",3,136.0,2,44.82,-68.81,Maine North & Bangor
+72,"Barnstable Town, MA",1,272.0,1,41.68,-70.3,Cape Cod
+73,"Barnstable Town, MA",2,184.0,3,41.65,-70.29,Cape Cod
+74,"Barnstable Town, MA",3,150.0,1,41.66,-70.21,
+75,"Baton Rouge, LA",1,1507.0,6,30.46,-91.13,Lobdell/Wooddale
+76,"Baton Rouge, LA",2,983.0,5,30.43,-91.06,Sherwood Forest
+77,"Baton Rouge, LA",3,868.0,2,30.41,-91.04,Shenandoah
+78,"Battle Creek, MI",1,1022.0,5,42.25,-85.19,Battle Creek
+79,"Battle Creek, MI",2,816.0,2,42.26,-85.19,Battle Creek
+80,"Battle Creek, MI",3,677.0,3,42.33,-85.27,Battle Creek
+81,"Bay City, MI",1,511.0,3,43.59,-83.85,Midland/Flint
+82,"Bay City, MI",2,228.0,1,43.62,-83.8,Midland/Flint
+83,"Bay City, MI",3,180.0,1,43.63,-83.92,Midland/Flint
+84,"Beaumont, TX",1,1226.0,6,30.12,-94.19,North Outer Jefferson
+85,"Beaumont, TX",2,894.0,5,29.95,-93.97,Port Arthur/Groves
+86,"Beaumont, TX",3,792.0,4,30.08,-94.17,South CANA
+87,"Beckley, WV",1,192.0,1,37.8,-81.21,West Virginia South Area
+88,"Beckley, WV",2,184.0,2,37.78,-81.17,West Virginia South Area
+89,"Beckley, WV",3,175.0,1,37.83,-81.21,West Virginia South Area
+90,"Bellingham, WA",1,640.0,8,48.73,-122.47,Samish Hill
+91,"Bellingham, WA",2,610.0,9,48.73,-122.48,Happy Valley
+92,"Bellingham, WA",3,593.0,9,48.75,-122.48,Downtown Bellingham
+93,"Bend, OR",1,577.0,3,44.06,-121.28,Mountain View
+94,"Bend, OR",2,426.0,2,44.04,-121.33,Century West
+95,"Bend, OR",3,358.0,3,44.06,-121.27,Mountain View
+96,"Billings, MT",1,1141.0,6,45.76,-108.63,Billings
+97,"Billings, MT",2,499.0,3,45.75,-108.63,Billings
+98,"Billings, MT",3,382.0,2,45.79,-108.6,Billings
+99,"Binghamton, NY",1,463.0,3,42.1,-75.91,Center City
+100,"Binghamton, NY",2,432.0,4,42.09,-76.0,Outer Broome County
+101,"Binghamton, NY",3,414.0,1,42.13,-75.93,Ely Park
+102,"Birmingham, AL",1,2839.0,7,33.38,-86.79,Hoover/Vestavia Hills
+103,"Birmingham, AL",2,1327.0,9,33.51,-86.81,Parkside
+104,"Birmingham, AL",3,1260.0,3,33.43,-86.7,Shelby County
+105,"Bismarck, ND",1,537.0,5,46.83,-100.81,Downtown Bismarck
+106,"Bismarck, ND",2,470.0,4,46.81,-100.84,Prairie West
+107,"Bismarck, ND",3,364.0,3,46.85,-100.74,North Bismarck
+108,"Blacksburg, VA",1,768.0,1,37.22,-80.45,Hethwood-Prices Fork
+109,"Blacksburg, VA",2,575.0,3,37.24,-80.43,McBryde
+110,"Blacksburg, VA",3,388.0,1,37.19,-80.42,Blacksburg & Wytheville
+111,"Bloomington, IL",1,711.0,1,40.45,-88.94,Bloomington/Normal
+112,"Bloomington, IL",2,564.0,1,40.49,-88.91,Bloomington/Normal
+113,"Bloomington, IL",3,509.0,2,40.54,-88.98,Bloomington/Normal
+114,"Bloomington, IN",1,1290.0,6,39.17,-86.49,Bloomington/Terre Haute
+115,"Bloomington, IN",2,732.0,4,39.15,-86.57,Bloomington/Terre Haute
+116,"Bloomington, IN",3,721.0,2,39.16,-86.59,Bloomington/Terre Haute
+117,"Bloomsburg-Berwick, PA",1,232.0,1,41.02,-76.42,Columbia County
+118,"Bloomsburg-Berwick, PA",2,118.0,2,41.0,-76.46,Columbia County
+119,"Bloomsburg-Berwick, PA",3,96.0,1,41.02,-76.41,Columbia County
+120,"Boise, ID",1,1500.0,1,43.63,-116.51,Nampa
+121,"Boise, ID",2,1475.0,10,43.61,-116.2,Downtown Boise
+122,"Boise, ID",3,1071.0,4,43.62,-116.21,Downtown Boise
+123,"Boston, MA",1,4429.0,24,42.34,-71.1,Fenway
+124,"Boston, MA",2,4047.0,18,42.35,-71.06,Chinatown
+125,"Boston, MA",3,3601.0,27,42.34,-71.08,South End Boston
+126,"Boulder, CO",1,1209.0,1,39.93,-105.14,Interlocken
+127,"Boulder, CO",2,1150.0,7,40.02,-105.25,Transit Village
+128,"Boulder, CO",3,930.0,2,40.15,-105.16,Longmont/Northwest Boulder County
+129,"Bowling Green, KY",1,655.0,3,36.94,-86.43,Bowling Green Area
+130,"Bowling Green, KY",2,590.0,1,36.97,-86.41,Bowling Green Area
+131,"Bowling Green, KY",3,500.0,1,36.87,-86.53,Bowling Green Area
+132,"Bremerton, WA",1,1063.0,5,47.67,-122.67,Outer Silverdale
+133,"Bremerton, WA",2,570.0,1,47.67,-122.69,Outer Silverdale
+134,"Bremerton, WA",3,530.0,4,47.52,-122.65,South Kitsap County
+135,"Brownsville-Harlingen, TX",1,782.0,6,25.93,-97.48,Outlying Cameron County
+136,"Brownsville-Harlingen, TX",2,586.0,4,25.94,-97.5,Outlying Cameron County
+137,"Brownsville-Harlingen, TX",3,418.0,2,25.95,-97.48,Outlying Cameron County
+138,"Brunswick, GA",1,436.0,4,31.21,-81.48,Brunswick/Kingsland
+139,"Brunswick, GA",2,419.0,4,31.22,-81.48,Brunswick/Kingsland
+140,"Brunswick, GA",3,393.0,3,31.21,-81.47,Brunswick/Kingsland
+141,"Buffalo, NY",1,2004.0,8,42.88,-78.88,Downtown Buffalo
+142,"Buffalo, NY",2,1382.0,10,42.9,-78.87,Bryant
+143,"Buffalo, NY",3,1090.0,4,42.95,-78.83,Starin Central
+144,"Burlington, NC",1,938.0,3,36.07,-79.28,Mebane
+145,"Burlington, NC",2,854.0,4,36.06,-79.38,Mebane
+146,"Burlington, NC",3,683.0,1,36.08,-79.31,Mebane
+147,"Burlington, VT",1,525.0,4,44.48,-73.22,Downtown Burlington
+148,"Burlington, VT",2,451.0,2,44.49,-73.11,Vermont North Area
+149,"Burlington, VT",3,341.0,3,44.49,-73.18,Vermont North Area
+150,"California-Lexington Park, MD",1,650.0,1,38.25,-76.45,St Mary's County
+151,"California-Lexington Park, MD",2,365.0,1,38.3,-76.53,St Mary's County
+152,"California-Lexington Park, MD",3,358.0,1,38.26,-76.47,St Mary's County
+153,"Canton, OH",1,586.0,1,40.85,-81.45,Outer Canton
+154,"Canton, OH",2,512.0,2,40.83,-81.43,Outer Canton
+155,"Canton, OH",3,443.0,4,40.82,-81.37,Outer Canton
+156,"Cape Girardeau, MO",1,342.0,1,37.3,-89.55,Missouri South Area
+157,"Cape Girardeau, MO",2,176.0,2,37.34,-89.58,Missouri South Area
+158,"Cape Girardeau, MO",3,138.0,2,37.3,-89.54,Missouri South Area
+159,"Carbondale-Marion, IL",1,610.0,5,37.72,-89.22,Marion/I-64 & South
+160,"Carbondale-Marion, IL",2,306.0,1,37.72,-89.2,Marion/I-64 & South
+161,"Carbondale-Marion, IL",3,288.0,2,37.72,-89.21,Marion/I-64 & South
+162,"Carson City, NV",1,658.0,6,39.19,-119.76,Carson City County
+163,"Carson City, NV",2,542.0,4,39.19,-119.77,Carson City County
+164,"Carson City, NV",3,396.0,2,39.17,-119.73,Carson City County
+165,"Casper, WY",1,860.0,3,42.83,-106.29,I-25 Corridor/Casper
+166,"Casper, WY",2,525.0,4,42.84,-106.28,I-25 Corridor/Casper
+167,"Casper, WY",3,416.0,1,42.84,-106.25,I-25 Corridor/Casper
+168,"Cedar Rapids, IA",1,565.0,2,41.97,-91.74,Cedar Hills
+169,"Cedar Rapids, IA",2,522.0,1,42.02,-91.66,Iowa City/Waterloo
+170,"Cedar Rapids, IA",3,518.0,2,42.05,-91.6,Iowa City/Waterloo
+171,"Chambersburg-Waynesboro, PA",1,304.0,1,39.92,-77.63,Franklin County
+172,"Chambersburg-Waynesboro, PA",2,231.0,2,39.92,-77.68,Franklin County
+173,"Chambersburg-Waynesboro, PA",3,172.0,1,40.06,-77.54,Franklin County
+174,"Champaign-Urbana, IL",1,1109.0,6,40.11,-88.29,Champaign-Urbana
+175,"Champaign-Urbana, IL",2,704.0,3,40.14,-88.25,Champaign-Urbana
+176,"Champaign-Urbana, IL",3,662.0,1,40.12,-88.2,Champaign-Urbana
+177,"Charleston , WV",1,549.0,1,38.32,-81.57,Northeast Charleston
+178,"Charleston , WV",2,396.0,2,38.37,-81.72,St Albans/Cross Lanes
+179,"Charleston , WV",3,333.0,1,38.35,-81.62,Northeast Charleston
+180,"Charleston, SC",1,1874.0,9,32.8,-79.94,East Central
+181,"Charleston, SC",2,1398.0,7,32.95,-80.05,North Charleston
+182,"Charleston, SC",3,1104.0,4,32.82,-80.09,West Ashley
+183,"Charlotte, NC",1,6061.0,18,35.22,-80.85,The South End
+184,"Charlotte, NC",2,4128.0,16,35.21,-80.86,Wilmore
+185,"Charlotte, NC",3,3761.0,13,35.23,-80.85,Third Ward
+186,"Charlottesville, VA",1,1218.0,6,38.07,-78.49,Charlottesville
+187,"Charlottesville, VA",2,979.0,4,38.08,-78.47,Charlottesville
+188,"Charlottesville, VA",3,776.0,2,38.05,-78.52,West Charlottesville
+189,"Chattanooga, TN",1,2283.0,9,35.05,-85.32,Westside Chattanooga
+190,"Chattanooga, TN",2,1000.0,4,35.01,-85.16,East Brainerd
+191,"Chattanooga, TN",3,893.0,3,35.05,-85.15,Tyner-Greenwood
+192,"Cheyenne, WY",1,372.0,1,41.11,-104.81,I-80 Corridor/Cheyenne
+193,"Cheyenne, WY",2,304.0,2,41.17,-104.79,I-80 Corridor/Cheyenne
+194,"Cheyenne, WY",3,260.0,2,41.14,-104.75,I-80 Corridor/Cheyenne
+195,"Chicago, IL",1,14024.0,57,41.9,-87.63,Near North Side
+196,"Chicago, IL",2,12467.0,26,41.89,-87.62,Streeterville
+197,"Chicago, IL",3,11781.0,9,41.86,-87.63,South Loop
+198,"Chico, CA",1,802.0,5,39.74,-121.8,Redding/Chico
+199,"Chico, CA",2,628.0,5,39.77,-121.83,Redding/Chico
+200,"Chico, CA",3,570.0,6,39.74,-121.86,Redding/Chico
+201,"Cincinnati, OH",1,4149.0,22,39.1,-84.51,City Center
+202,"Cincinnati, OH",2,2300.0,1,39.29,-84.46,Springdale
+203,"Cincinnati, OH",3,2098.0,4,39.11,-84.53,West End
+204,"Clarksville, TN",1,751.0,4,36.64,-87.43,Clarksville
+205,"Clarksville, TN",2,624.0,3,36.58,-87.23,Clarksville
+206,"Clarksville, TN",3,477.0,4,36.59,-87.4,Clarksville
+207,"Cleveland, OH",1,4766.0,18,41.5,-81.69,Public Square
+208,"Cleveland, OH",2,2144.0,12,41.5,-81.68,Playhouse Square
+209,"Cleveland, OH",3,1927.0,11,41.5,-81.7,Warehouse District
+210,"Cleveland, TN",1,380.0,2,35.21,-84.87,Tennessee East Area
+211,"Cleveland, TN",2,367.0,2,35.17,-84.86,Downtown Cleveland
+212,"Cleveland, TN",3,250.0,1,35.16,-84.89,Downtown Cleveland
+213,"Coeur d'Alene, ID",1,534.0,2,47.7,-116.83,Kootenai County
+214,"Coeur d'Alene, ID",2,534.0,2,47.73,-116.81,Kootenai County
+215,"Coeur d'Alene, ID",3,528.0,2,47.71,-117.02,Kootenai County
+216,"College Station-Bryan, TX",1,1052.0,6,30.62,-96.31,Wolf Pen Creek District
+217,"College Station-Bryan, TX",2,870.0,2,30.63,-96.31,Wolf Pen Creek District
+218,"College Station-Bryan, TX",3,775.0,3,30.64,-96.33,Bryan & College Station
+219,"Colorado Springs, CO",1,1728.0,8,38.88,-104.76,Palmer Park
+220,"Colorado Springs, CO",2,1684.0,9,38.83,-104.82,Downtown Colorado Springs
+221,"Colorado Springs, CO",3,1272.0,5,38.82,-104.75,Gateway Park
+222,"Columbia, MO",1,859.0,5,38.96,-92.37,Columbia/Jefferson City
+223,"Columbia, MO",2,825.0,2,38.9,-92.29,Columbia/Jefferson City
+224,"Columbia, MO",3,760.0,2,38.96,-92.26,Columbia/Jefferson City
+225,"Columbia, SC",1,1419.0,5,34.04,-81.08,St Andrews
+226,"Columbia, SC",2,1290.0,3,34.0,-81.05,Congaree Vista
+227,"Columbia, SC",3,1280.0,5,34.08,-80.96,Northeast Arcadia Lakes
+228,"Columbus , GA",1,1034.0,4,32.49,-85.02,Phenix City
+229,"Columbus , GA",2,982.0,1,32.53,-84.87,East Columbus
+230,"Columbus , GA",3,818.0,3,32.57,-84.93,North Columbus
+231,"Columbus, IN",1,464.0,2,39.2,-85.97,Indiana South Area
+232,"Columbus, IN",2,424.0,1,39.2,-85.96,Indiana South Area
+233,"Columbus, IN",3,418.0,3,39.2,-85.88,Indiana South Area
+234,"Columbus, OH",1,3084.0,15,39.96,-83.0,Uptown District
+235,"Columbus, OH",2,2514.0,12,39.96,-83.01,East Franklinton
+236,"Columbus, OH",3,2201.0,17,39.96,-82.99,Discovery District
+237,"Corpus Christi, TX",1,1363.0,2,27.71,-97.41,South Side
+238,"Corpus Christi, TX",2,1346.0,6,27.69,-97.4,South Side
+239,"Corpus Christi, TX",3,1102.0,4,27.68,-97.39,South Side
+240,"Corvallis, OR",1,677.0,2,44.58,-123.3,Oregon West Area
+241,"Corvallis, OR",2,598.0,5,44.56,-123.27,Oregon West Area
+242,"Corvallis, OR",3,528.0,2,44.55,-123.31,Oregon West Area
+243,"Cumberland, MD",1,138.0,1,39.63,-78.74,Maryland West/Hagerstown
+244,"Cumberland, MD",2,98.0,1,39.62,-78.81,Maryland West/Hagerstown
+245,"Cumberland, MD",3,77.0,1,39.64,-78.76,Maryland West/Hagerstown
+246,"Dallas-Fort Worth, TX",1,6188.0,25,32.8,-96.8,Uptown Dallas
+247,"Dallas-Fort Worth, TX",2,6135.0,18,32.79,-96.81,Victory Park
+248,"Dallas-Fort Worth, TX",3,5629.0,26,32.78,-96.8,City Center
+249,"Dalton, GA",1,537.0,4,34.78,-85.0,Georgia Northwest
+250,"Dalton, GA",2,278.0,2,34.79,-85.0,Georgia Northwest
+251,"Dalton, GA",3,234.0,1,34.77,-84.97,Georgia Northwest
+252,"Danville, IL",1,312.0,2,40.16,-87.6,Illinois North Area
+253,"Danville, IL",2,233.0,2,40.16,-87.63,Illinois North Area
+254,"Danville, IL",3,212.0,2,40.18,-87.62,Illinois North Area
+255,"Daphne-Fairhope-Foley, AL",1,841.0,3,30.37,-87.69,Baldwin County
+256,"Daphne-Fairhope-Foley, AL",2,475.0,1,30.31,-87.68,Baldwin County
+257,"Daphne-Fairhope-Foley, AL",3,458.0,2,30.6,-87.88,Baldwin County
+258,"Davenport, IA",1,921.0,3,41.48,-90.44,Outer Rock Island/Moline
+259,"Davenport, IA",2,604.0,6,41.52,-90.57,Downtown Davenport
+260,"Davenport, IA",3,502.0,3,41.56,-90.56,North Side
+261,"Dayton, OH",1,1402.0,12,39.76,-84.19,Downtown Dayton
+262,"Dayton, OH",2,964.0,4,39.63,-84.23,Miamisburg/Moraine
+263,"Dayton, OH",3,910.0,4,39.69,-84.1,Beavercreek/Bellbrook
+264,"Daytona Beach, FL",1,1933.0,7,29.2,-81.07,Greater Daytona
+265,"Daytona Beach, FL",2,937.0,3,29.23,-81.08,Grand Preserve  One
+266,"Daytona Beach, FL",3,832.0,3,29.25,-81.11,Outer Ormand Beach
+267,"Decatur, AL",1,360.0,2,34.57,-86.99,Alabama North Area
+268,"Decatur, AL",2,296.0,2,34.58,-87.02,Alabama North Area
+269,"Decatur, AL",3,270.0,3,34.55,-86.99,Alabama North Area
+270,"Decatur, IL",1,825.0,3,39.89,-88.94,Springfield/Decatur
+271,"Decatur, IL",2,471.0,1,39.85,-88.95,Springfield/Decatur
+272,"Decatur, IL",3,331.0,1,39.89,-88.93,Springfield/Decatur
+273,"Denver, CO",1,6594.0,26,39.75,-104.99,Five Points
+274,"Denver, CO",2,6468.0,24,39.73,-104.99,Golden Triangle
+275,"Denver, CO",3,5805.0,21,39.76,-105.0,Ballpark
+276,"Des Moines, IA",1,1944.0,14,41.58,-93.63,Downtown Des Moines
+277,"Des Moines, IA",2,1684.0,12,41.59,-93.61,East Village
+278,"Des Moines, IA",3,1463.0,13,41.58,-93.62,Downtown Des Moines
+279,"Detroit, MI",1,2623.0,16,42.33,-83.05,City Center Detroit
+280,"Detroit, MI",2,2477.0,19,42.35,-83.06,Midtown Detroit
+281,"Detroit, MI",3,2388.0,1,42.62,-82.91,Clinton Township
+282,"Dothan, AL",1,455.0,3,31.26,-85.41,Dothan/Enterprise
+283,"Dothan, AL",2,353.0,3,31.22,-85.43,Dothan/Enterprise
+284,"Dothan, AL",3,352.0,1,31.19,-85.4,Dothan/Enterprise
+285,"Dover, DE",1,438.0,1,39.15,-75.55,Outer Dover-Kent County
+286,"Dover, DE",2,404.0,2,39.28,-75.6,Outer North Kent County
+287,"Dover, DE",3,384.0,3,39.17,-75.51,Outer Dover-Kent County
+288,"Dubuque, IA",1,282.0,2,42.5,-90.73,Iowa Northeast Area
+289,"Dubuque, IA",2,279.0,4,42.5,-90.66,Iowa Northeast Area
+290,"Dubuque, IA",3,253.0,2,42.53,-90.65,Iowa Northeast Area
+291,"Duluth, MN",1,693.0,7,46.79,-92.1,Downtown Duluth
+292,"Duluth, MN",2,510.0,4,46.8,-92.12,Duluth Heights
+293,"Duluth, MN",3,449.0,3,46.82,-92.07,Hunters Park
+294,"Durham, NC",1,2877.0,14,36.0,-78.9,Central Park
+295,"Durham, NC",2,2624.0,11,36.01,-78.95,Duke
+296,"Durham, NC",3,2065.0,8,35.99,-78.9,City Center Durham
+297,"East Bay, CA",1,4971.0,28,37.8,-122.27,Lakeside
+298,"East Bay, CA",2,4608.0,31,37.87,-122.27,Downtown Berkeley
+299,"East Bay, CA",3,4251.0,24,37.81,-122.27,Uptown Oakland
+300,"East Stroudsburg, PA",1,330.0,4,40.99,-75.17,Monroe County
+301,"East Stroudsburg, PA",2,227.0,2,40.98,-75.2,Monroe County
+302,"East Stroudsburg, PA",3,138.0,1,41.03,-75.2,Monroe County
+303,"Eau Claire, WI",1,413.0,4,44.81,-91.5,Downtown Eau Claire
+304,"Eau Claire, WI",2,406.0,3,44.79,-91.51,Eau Claire/Menomonie
+305,"Eau Claire, WI",3,330.0,3,44.82,-91.51,Downtown Eau Claire
+306,"El Centro, CA",1,618.0,3,32.81,-115.57,Yuma & El Centro
+307,"El Centro, CA",2,504.0,7,32.98,-115.51,Yuma & El Centro
+308,"El Centro, CA",3,381.0,4,32.79,-115.58,Yuma & El Centro
+309,"El Paso, TX",1,2957.0,12,31.81,-106.51,Lomas Del Rey
+310,"El Paso, TX",2,1841.0,8,31.77,-106.36,Stonehaven
+311,"El Paso, TX",3,1478.0,7,31.71,-106.31,Pecan Grove
+312,"Elizabethtown-Fort Knox, KY",1,977.0,4,37.73,-85.9,Kentucky West Area
+313,"Elizabethtown-Fort Knox, KY",2,710.0,3,37.71,-85.85,Kentucky West Area
+314,"Elizabethtown-Fort Knox, KY",3,418.0,2,37.75,-85.9,Kentucky West Area
+315,"Elkhart, IN",1,707.0,1,41.65,-85.97,South Elkhart
+316,"Elkhart, IN",2,576.0,1,41.67,-85.9,South Elkhart
+317,"Elkhart, IN",3,468.0,3,41.69,-85.97,State St/Division St Hist District
+318,"Elmira, NY",1,525.0,3,42.09,-76.79,Ithaca/Elmira
+319,"Elmira, NY",2,479.0,2,42.08,-76.81,Ithaca/Elmira
+320,"Elmira, NY",3,310.0,1,42.09,-76.8,Ithaca/Elmira
+321,"Enid, OK",1,203.0,2,36.39,-97.93,Oklahoma West Area
+322,"Enid, OK",2,200.0,1,36.41,-97.91,Oklahoma West Area
+323,"Enid, OK",3,198.0,2,36.41,-97.95,Oklahoma West Area
+324,"Erie, PA",1,791.0,1,42.07,-80.09,Outlying Erie County
+325,"Erie, PA",2,627.0,4,42.13,-80.08,Mid City Erie
+326,"Erie, PA",3,488.0,4,41.87,-80.12,Edinboro
+327,"Eugene, OR",1,1203.0,4,44.06,-123.06,Harlow
+328,"Eugene, OR",2,987.0,4,44.08,-123.11,Cal Young
+329,"Eugene, OR",3,739.0,4,44.09,-123.06,Harlow
+330,"Evansville, IN",1,663.0,3,37.94,-87.49,Kathleen-Jeannette
+331,"Evansville, IN",2,656.0,3,37.98,-87.64,Evansville West Side
+332,"Evansville, IN",3,647.0,3,37.95,-87.49,East Evansville
+333,"Fairbanks, AK",1,775.0,2,64.86,-147.72,Alaska Regional
+334,"Fairbanks, AK",2,400.0,1,64.84,-147.66,Alaska Regional
+335,"Fairbanks, AK",3,355.0,1,64.83,-147.81,Alaska Regional
+336,"Fargo, ND",1,1431.0,7,46.84,-96.88,Fargo
+337,"Fargo, ND",2,1231.0,7,46.83,-96.91,Fargo
+338,"Fargo, ND",3,1048.0,8,46.87,-96.85,Village West
+339,"Farmington, NM",1,226.0,3,36.75,-108.17,New Mexico North Area
+340,"Farmington, NM",2,204.0,3,36.76,-108.2,New Mexico North Area
+341,"Farmington, NM",3,172.0,2,36.72,-108.22,New Mexico North Area
+342,"Fayetteville , NC",1,2418.0,5,35.1,-78.97,Westover
+343,"Fayetteville , NC",2,1134.0,4,35.06,-79.01,Westover
+344,"Fayetteville , NC",3,1023.0,5,35.15,-78.87,Kings Grant
+345,"Flagstaff, AZ",1,912.0,5,35.18,-111.67,Woodlands Village
+346,"Flagstaff, AZ",2,808.0,4,35.16,-111.66,Flagstaff
+347,"Flagstaff, AZ",3,510.0,3,35.21,-111.58,Flagstaff
+348,"Flint, MI",1,940.0,2,43.02,-83.55,Burton/Davison
+349,"Flint, MI",2,884.0,2,42.92,-83.69,Grand Blanc/Goodrich
+350,"Flint, MI",3,845.0,2,43.01,-83.54,Burton/Davison
+351,"Florence, SC",1,648.0,4,34.17,-79.83,Florence/Dillon
+352,"Florence, SC",2,424.0,2,34.18,-79.83,Florence/Dillon
+353,"Florence, SC",3,353.0,4,34.2,-79.77,Florence/Dillon
+354,"Florence-Muscle Shoals, AL",1,543.0,5,34.82,-87.67,Alabama North Area
+355,"Florence-Muscle Shoals, AL",2,506.0,5,34.83,-87.67,Alabama North Area
+356,"Florence-Muscle Shoals, AL",3,442.0,3,34.85,-87.67,Alabama North Area
+357,"Fond du Lac, WI",1,728.0,2,43.79,-88.48,City of Fond du Lac
+358,"Fond du Lac, WI",2,436.0,4,43.79,-88.47,City of Fond du Lac
+359,"Fond du Lac, WI",3,420.0,1,43.74,-88.45,Suburban Fond du Lac
+360,"Fort Collins, CO",1,1500.0,1,40.62,-105.02,Fort Collins
+361,"Fort Collins, CO",2,1300.0,1,40.44,-105.13,Loveland
+362,"Fort Collins, CO",3,750.0,2,40.54,-105.07,Fort Collins
+363,"Fort Lauderdale, FL",1,8999.0,26,26.13,-80.14,Flagler Heights
+364,"Fort Lauderdale, FL",2,6803.0,20,26.12,-80.14,Downtown Fort Lauderdale
+365,"Fort Lauderdale, FL",3,4523.0,2,26.22,-80.15,Arvida Pompano Park
+366,"Fort Myers, FL",1,1916.0,5,26.61,-81.83,Outer Central Lee County
+367,"Fort Myers, FL",2,1781.0,2,26.65,-82.0,Mariner
+368,"Fort Myers, FL",3,1369.0,4,26.6,-81.81,Outer Central Lee County
+369,"Fort Smith, AR",1,468.0,1,35.33,-94.38,Fort Smith Eastside
+370,"Fort Smith, AR",2,441.0,2,35.38,-94.37,Fort Smith Northside
+371,"Fort Smith, AR",3,438.0,1,35.29,-94.33,Outlying Sebastian County
+372,"Fort Wayne, IN",1,2244.0,2,41.12,-85.1,Canterbury Green
+373,"Fort Wayne, IN",2,988.0,2,41.01,-85.12,South Fort Wayne
+374,"Fort Wayne, IN",3,802.0,3,41.07,-85.22,Southwest Fort Wayne
+375,"Fresno, CA",1,1630.0,7,36.85,-119.8,Bullard
+376,"Fresno, CA",2,1170.0,5,36.82,-119.86,Fig Garden Loop
+377,"Fresno, CA",3,1002.0,4,36.87,-119.76,Woodward Park
+378,"Ft Walton Beach, FL",1,861.0,3,30.39,-86.45,Fort Walton Beach
+379,"Ft Walton Beach, FL",2,672.0,5,30.74,-86.56,Fort Walton Beach
+380,"Ft Walton Beach, FL",3,484.0,2,30.72,-86.61,Fort Walton Beach
+381,"Gadsden, AL",1,300.0,2,34.01,-86.01,Etowah County
+382,"Gadsden, AL",2,248.0,1,34.0,-86.0,Etowah County
+383,"Gadsden, AL",3,235.0,3,34.0,-85.96,Etowah County
+384,"Gainesville, FL",1,1514.0,9,29.62,-82.37,South Gainesville
+385,"Gainesville, FL",2,1295.0,6,29.65,-82.41,West Gainesville
+386,"Gainesville, FL",3,1128.0,8,29.65,-82.42,West Gainesville
+387,"Gainesville, GA",1,949.0,2,34.31,-83.87,Gainesville
+388,"Gainesville, GA",2,896.0,3,34.24,-83.88,Oakwood/Flowery Branch
+389,"Gainesville, GA",3,801.0,5,34.28,-83.86,Gainesville
+390,"Gettysburg, PA",1,112.0,1,39.83,-77.27,Adams County
+391,"Gettysburg, PA",2,110.0,1,39.86,-77.07,Adams County
+392,"Gettysburg, PA",3,96.0,1,39.87,-77.23,Adams County
+393,"Glens Falls, NY",1,581.0,7,43.31,-73.65,Warren County
+394,"Glens Falls, NY",2,400.0,1,43.41,-73.71,Warren County
+395,"Glens Falls, NY",3,389.0,2,43.34,-73.68,Warren County
+396,"Goldsboro, NC",1,288.0,1,35.39,-77.93,North Carolina Southeast Area
+397,"Goldsboro, NC",2,264.0,1,35.38,-77.93,North Carolina Southeast Area
+398,"Goldsboro, NC",3,238.0,2,35.38,-78.0,North Carolina Southeast Area
+399,"Grand Forks, ND",1,773.0,4,47.89,-97.08,North Dakota Area
+400,"Grand Forks, ND",2,644.0,6,47.89,-97.06,North Dakota Area
+401,"Grand Forks, ND",3,632.0,3,47.9,-97.08,North Dakota Area
+402,"Grand Island, NE",1,367.0,2,40.94,-98.39,I-80 Corridor
+403,"Grand Island, NE",2,302.0,3,40.93,-98.39,I-80 Corridor
+404,"Grand Island, NE",3,280.0,1,40.89,-98.34,I-80 Corridor
+405,"Grand Junction, CO",1,330.0,2,39.07,-108.57,Colorado Northwest Area
+406,"Grand Junction, CO",2,242.0,2,39.09,-108.58,Colorado Northwest Area
+407,"Grand Junction, CO",3,216.0,2,39.08,-108.51,Colorado Northwest Area
+408,"Grand Rapids, MI",1,1764.0,1,43.04,-85.69,North Grand Rapids
+409,"Grand Rapids, MI",2,1620.0,15,42.96,-85.67,Downtown Grand Rapids
+410,"Grand Rapids, MI",3,1184.0,1,42.89,-85.73,Outer Kentwood/Wyoming
+411,"Grants Pass, OR",1,2816.0,1,42.43,-123.33,Medford/Grants Pass
+412,"Grants Pass, OR",2,167.0,1,42.43,-123.3,Medford/Grants Pass
+413,"Grants Pass, OR",3,110.0,2,42.42,-123.32,Medford/Grants Pass
+414,"Great Falls, MT",1,356.0,1,47.5,-111.28,
+415,"Great Falls, MT",2,288.0,1,47.48,-111.27,Helena/Great Falls
+416,"Great Falls, MT",3,288.0,1,47.48,-111.26,Helena/Great Falls
+417,"Greeley, CO",1,1050.0,4,40.4,-104.74,Greeley
+418,"Greeley, CO",2,958.0,3,40.16,-105.05,South Weld County
+419,"Greeley, CO",3,815.0,4,40.39,-104.71,Greeley
+420,"Green Bay, WI",1,802.0,2,44.52,-87.96,Central Green Bay
+421,"Green Bay, WI",2,677.0,5,44.52,-88.01,Downtown Green Bay
+422,"Green Bay, WI",3,627.0,5,44.48,-88.0,Starlite
+423,"Greensboro, NC",1,1145.0,5,36.07,-79.79,Downtown Greensboro
+424,"Greensboro, NC",2,995.0,5,36.05,-79.8,Smith Homes
+425,"Greensboro, NC",3,872.0,4,36.03,-79.97,Jamestown/High Point
+426,"Greenville, NC",1,1090.0,6,35.57,-77.36,Southeast Greenville
+427,"Greenville, NC",2,1002.0,5,35.56,-77.35,North Carolina Northeast Area
+428,"Greenville, NC",3,868.0,4,35.62,-77.41,West Greenville
+429,"Greenville, SC",1,1632.0,5,34.84,-82.34,Eastside
+430,"Greenville, SC",2,1216.0,5,34.85,-82.41,West Downtown
+431,"Greenville, SC",3,1072.0,5,34.8,-82.32,Outer Greenville/Mauldin
+432,"Gulfport-Biloxi-Pascagoula, MS",1,751.0,4,30.4,-88.99,Biloxi/Gulfport
+433,"Gulfport-Biloxi-Pascagoula, MS",2,728.0,4,30.4,-89.0,Biloxi/Gulfport
+434,"Gulfport-Biloxi-Pascagoula, MS",3,600.0,5,30.37,-88.53,Biloxi/Gulfport
+435,"Hagerstown, MD",1,461.0,1,39.61,-77.75,Outer Downtown/Maugansville
+436,"Hagerstown, MD",2,432.0,1,39.46,-77.97,Berkeley County
+437,"Hagerstown, MD",3,432.0,1,39.66,-77.7,Outer Robinwood/Paramnt/Fountain Head
+438,"Hammond, LA",1,379.0,2,30.49,-90.46,Louisiana South Area
+439,"Hammond, LA",2,336.0,1,30.48,-90.41,Louisiana South Area
+440,"Hammond, LA",3,280.0,2,30.53,-90.48,Louisiana South Area
+441,"Hanford-Corcoran, CA",1,661.0,3,36.36,-119.65,Kings County
+442,"Hanford-Corcoran, CA",2,524.0,3,36.31,-119.78,Kings County
+443,"Hanford-Corcoran, CA",3,322.0,1,36.32,-119.68,Kings County
+444,"Harrisburg, PA",1,1182.0,7,40.26,-76.88,Downtown Harrisburg
+445,"Harrisburg, PA",2,1040.0,2,40.28,-76.81,Progress/Colonial Park
+446,"Harrisburg, PA",3,919.0,1,40.26,-76.69,South Dauphin County
+447,"Harrisonburg, VA",1,448.0,2,38.41,-78.86,Staunton & Harrisonburg
+448,"Harrisonburg, VA",2,408.0,1,38.4,-78.87,Staunton & Harrisonburg
+449,"Harrisonburg, VA",3,404.0,2,38.43,-78.9,Staunton & Harrisonburg
+450,"Hartford, CT",1,2275.0,15,41.77,-72.68,Downtown Hartford
+451,"Hartford, CT",2,2226.0,10,41.77,-72.67,Downtown Hartford
+452,"Hartford, CT",3,1187.0,8,41.77,-72.69,Asylum Hill
+453,"Hattiesburg, MS",1,800.0,3,31.33,-89.36,Hattiesburg/South Area
+454,"Hattiesburg, MS",2,624.0,4,31.35,-89.34,Hattiesburg/South Area
+455,"Hattiesburg, MS",3,589.0,3,31.35,-89.35,Hattiesburg/South Area
+456,"Hickory, NC",1,666.0,4,35.76,-81.3,Outer City Of Hickory
+457,"Hickory, NC",2,428.0,1,35.7,-81.3,Outer City Of Hickory
+458,"Hickory, NC",3,412.0,1,35.58,-80.98,Outlying Catawba County
+459,"Hilton Head Island, SC",1,858.0,4,32.39,-80.69,Hilton Head/Beaufort
+460,"Hilton Head Island, SC",2,660.0,3,32.43,-80.71,Hilton Head/Beaufort
+461,"Hilton Head Island, SC",3,588.0,2,32.33,-80.95,I-95 Walterboro/Hardeeville
+462,"Hinesville, GA",1,515.0,4,31.85,-81.58,Outer Liberty County
+463,"Hinesville, GA",2,292.0,1,31.83,-81.65,Outer Liberty County
+464,"Hinesville, GA",3,266.0,2,31.86,-81.6,Outer Liberty County
+465,"Homosassa Springs, FL",1,152.0,2,28.91,-82.59,Florida Central North Area
+466,"Homosassa Springs, FL",2,106.0,1,28.84,-82.35,Florida Central North Area
+467,"Homosassa Springs, FL",3,100.0,1,28.92,-82.47,Florida Central North Area
+468,"Honolulu, HI",1,4500.0,2,21.33,-157.87,Kalihi-Palama
+469,"Honolulu, HI",2,3756.0,7,21.32,-157.86,Kalihi-Palama
+470,"Honolulu, HI",3,2677.0,12,21.31,-157.86,Downtown Honolulu
+471,"Hot Springs, AR",1,296.0,1,34.45,-93.16,Arkansas South Area
+472,"Hot Springs, AR",2,256.0,1,34.46,-93.07,Arkansas South Area
+473,"Hot Springs, AR",3,253.0,1,34.46,-93.08,Arkansas South Area
+474,"Houma-Thibodaux, LA",1,627.0,2,29.6,-90.76,Louisiana South Area
+475,"Houma-Thibodaux, LA",2,322.0,2,29.63,-90.76,Louisiana South Area
+476,"Houma-Thibodaux, LA",3,246.0,1,29.62,-90.76,Louisiana South Area
+477,"Houston, TX",1,5928.0,12,29.72,-95.49,Gulfton
+478,"Houston, TX",2,4503.0,7,29.72,-95.48,Gulfton
+479,"Houston, TX",3,3990.0,13,29.74,-95.5,Uptown Houston
+480,"Huntington, WV",1,460.0,2,38.48,-82.66,Ashland
+481,"Huntington, WV",2,444.0,2,38.42,-82.3,Huntington
+482,"Huntington, WV",3,340.0,1,38.45,-81.9,Teays Valley
+483,"Huntsville, AL",1,1418.0,7,34.74,-86.65,University/Research Park
+484,"Huntsville, AL",2,1403.0,4,34.77,-86.68,University/Research Park
+485,"Huntsville, AL",3,1305.0,5,34.75,-86.68,University/Research Park
+486,"Idaho Falls, ID",1,576.0,2,43.5,-111.98,Idaho South Area
+487,"Idaho Falls, ID",2,471.0,2,43.47,-112.07,Idaho South Area
+488,"Idaho Falls, ID",3,409.0,2,43.49,-112.05,Idaho South Area
+489,"Indianapolis, IN",1,2174.0,13,39.77,-86.15,Chatham Arch
+490,"Indianapolis, IN",2,2129.0,12,39.77,-86.16,Circle City
+491,"Indianapolis, IN",3,1987.0,2,39.77,-86.26,Garden City
+492,"Inland Empire, CA",1,1830.0,3,34.08,-117.56,Rancho Cucamonga
+493,"Inland Empire, CA",2,1688.0,5,33.89,-117.52,Corona
+494,"Inland Empire, CA",3,1621.0,2,33.96,-117.62,Chino
+495,"Iowa City, IA",1,439.0,4,41.65,-91.53,Downtown Iowa City
+496,"Iowa City, IA",2,416.0,2,41.65,-91.55,Roosevelt
+497,"Iowa City, IA",3,407.0,3,41.72,-91.65,Iowa City/Waterloo
+498,"Ithaca, NY",1,931.0,10,42.44,-76.5,Downtown Ithaca
+499,"Ithaca, NY",2,511.0,2,42.51,-76.47,Ithaca/Elmira
+500,"Ithaca, NY",3,411.0,2,42.49,-76.47,Ithaca/Elmira
+501,"Jackson, MI",1,743.0,2,42.28,-84.45,Jackson County
+502,"Jackson, MI",2,686.0,2,42.28,-84.46,Jackson County
+503,"Jackson, MI",3,625.0,4,42.28,-84.44,Jackson County
+504,"Jackson, MS",1,926.0,4,32.41,-90.1,Outer Ridgeland/Madison
+505,"Jackson, MS",2,886.0,3,32.19,-90.26,Outlying Hinds County
+506,"Jackson, MS",3,860.0,3,32.41,-90.11,Outer Ridgeland/Madison
+507,"Jackson, TN",1,560.0,1,35.73,-88.84,Tennessee West Area
+508,"Jackson, TN",2,550.0,3,35.7,-88.85,Tennessee West Area
+509,"Jackson, TN",3,500.0,1,35.72,-88.85,Tennessee West Area
+510,"Jacksonville, FL",1,3148.0,8,30.22,-81.56,Baymeadows
+511,"Jacksonville, FL",2,1892.0,11,30.33,-81.66,Northbank
+512,"Jacksonville, FL",3,1759.0,5,30.25,-81.57,Baymeadows
+513,"Jacksonville, NC",1,778.0,4,34.8,-77.43,North Carolina Southeast Area
+514,"Jacksonville, NC",2,694.0,1,34.76,-77.41,North Carolina Southeast Area
+515,"Jacksonville, NC",3,508.0,3,34.8,-77.41,North Carolina Southeast Area
+516,"Janesville-Beloit, WI",1,805.0,4,42.67,-88.99,Janesville
+517,"Janesville-Beloit, WI",2,458.0,2,42.7,-88.98,Janesville
+518,"Janesville-Beloit, WI",3,292.0,2,42.52,-88.97,Beloit
+519,"Jefferson City, MO",1,360.0,1,38.58,-92.2,Columbia/Jefferson City
+520,"Jefferson City, MO",2,239.0,2,38.55,-92.19,Columbia/Jefferson City
+521,"Jefferson City, MO",3,158.0,1,38.58,-92.25,Columbia/Jefferson City
+522,"Johnson City, TN",1,696.0,2,36.34,-82.41,Bristol/Kingsport
+523,"Johnson City, TN",2,511.0,6,36.3,-82.33,Bristol/Kingsport
+524,"Johnson City, TN",3,461.0,2,36.3,-82.38,Bristol/Kingsport
+525,"Johnstown, PA",1,467.0,3,40.32,-78.92,Altoona/Johnstown
+526,"Johnstown, PA",2,400.0,1,40.36,-78.95,Altoona/Johnstown
+527,"Johnstown, PA",3,248.0,1,40.31,-78.89,Altoona/Johnstown
+528,"Jonesboro, AR",1,756.0,2,35.79,-90.68,Arkansas North Area
+529,"Jonesboro, AR",2,664.0,3,35.79,-90.69,Arkansas North Area
+530,"Jonesboro, AR",3,535.0,5,35.85,-90.68,Downtown Jonesboro
+531,"Joplin, MO",1,396.0,4,37.13,-94.48,Missouri South Area
+532,"Joplin, MO",2,360.0,3,37.07,-94.5,Missouri South Area
+533,"Joplin, MO",3,304.0,2,37.07,-94.47,Missouri South Area
+534,"Kahului-Wailuku-Lahaina, HI",1,1600.0,1,20.87,-156.44,Kula
+535,"Kahului-Wailuku-Lahaina, HI",2,528.0,3,20.95,-156.69,Lahaina
+536,"Kahului-Wailuku-Lahaina, HI",3,324.0,1,20.87,-156.5,Wailuku
+537,"Kalamazoo, MI",1,1942.0,7,42.28,-85.65,Outer North Kalamazoo County
+538,"Kalamazoo, MI",2,1146.0,1,42.33,-85.52,Outer North Kalamazoo County
+539,"Kalamazoo, MI",3,880.0,2,42.2,-85.63,Portage
+540,"Kankakee, IL",1,265.0,2,41.12,-87.83,Illinois North Area
+541,"Kankakee, IL",2,201.0,2,41.13,-87.87,Illinois North Area
+542,"Kankakee, IL",3,128.0,1,41.16,-87.87,
+543,"Kansas City, MO",1,6316.0,30,39.1,-94.58,Financial District
+544,"Kansas City, MO",2,2586.0,14,39.11,-94.58,River Market
+545,"Kansas City, MO",3,2212.0,14,39.1,-94.59,Quality Hill
+546,"Kennewick-Richland, WA",1,933.0,6,46.2,-119.13,Yakima/Kennewick
+547,"Kennewick-Richland, WA",2,880.0,7,46.3,-119.28,Yakima/Kennewick
+548,"Kennewick-Richland, WA",3,647.0,4,46.23,-119.12,Yakima/Kennewick
+549,"Killeen, TX",1,718.0,3,31.08,-97.46,Belton
+550,"Killeen, TX",2,713.0,3,31.11,-97.74,Killeen/Fort Cavazos
+551,"Killeen, TX",3,700.0,5,31.12,-97.7,Killeen/Fort Cavazos
+552,"Kingsport, TN",1,369.0,1,36.55,-82.64,Hawkins County
+553,"Kingsport, TN",2,334.0,3,36.59,-82.22,Outer Bristol
+554,"Kingsport, TN",3,280.0,1,36.56,-82.5,Town Of Kingsport
+555,"Kingston, NY",1,326.0,2,41.75,-74.07,Newburgh/Kingston
+556,"Kingston, NY",2,286.0,3,41.92,-73.99,Kingston Waterfront
+557,"Kingston, NY",3,267.0,1,41.94,-74.04,Newburgh/Kingston
+558,"Knoxville, TN",1,1608.0,7,35.97,-83.91,East Knoxville
+559,"Knoxville, TN",2,1133.0,4,35.93,-84.06,Westside
+560,"Knoxville, TN",3,945.0,4,35.92,-84.03,Westside
+561,"Kokomo, IN",1,488.0,3,40.45,-86.13,Lafayette/Kokomo
+562,"Kokomo, IN",2,422.0,2,40.45,-86.14,Lafayette/Kokomo
+563,"Kokomo, IN",3,346.0,3,40.44,-86.14,Lafayette/Kokomo
+564,"La Crosse-Onalaska, WI",1,487.0,6,43.81,-91.25,Downtown La Crosse
+565,"La Crosse-Onalaska, WI",2,365.0,4,43.82,-91.25,Downtown La Crosse
+566,"La Crosse-Onalaska, WI",3,293.0,4,43.82,-91.24,Downtown La Crosse
+567,"Lafayette, LA",1,1160.0,5,30.16,-92.04,Central Lafayette Parish
+568,"Lafayette, LA",2,845.0,4,30.17,-92.07,Central Lafayette Parish
+569,"Lafayette, LA",3,744.0,1,30.21,-92.05,Central Lafayette Parish
+570,"Lafayette-West Lafayette, IN",1,917.0,2,40.38,-86.86,Lafayette/Kokomo
+571,"Lafayette-West Lafayette, IN",2,722.0,5,40.39,-86.91,Lafayette/Kokomo
+572,"Lafayette-West Lafayette, IN",3,675.0,3,40.42,-86.82,Lafayette/Kokomo
+573,"Lake Charles, LA",1,1161.0,7,30.18,-93.19,Lake Charles
+574,"Lake Charles, LA",2,774.0,5,30.17,-93.24,Lake Charles
+575,"Lake Charles, LA",3,564.0,2,30.17,-93.25,Lake Charles
+576,"Lake Havasu, AZ",1,294.0,3,35.22,-114.02,Prescott & Sedona
+577,"Lake Havasu, AZ",2,273.0,2,35.11,-114.57,Prescott & Sedona
+578,"Lake Havasu, AZ",3,204.0,1,35.18,-114.53,Prescott & Sedona
+579,"Lakeland, FL",1,1570.0,3,28.1,-81.96,City of Lakeland
+580,"Lakeland, FL",2,1512.0,2,27.98,-81.64,Winter Haven/Lake Wales
+581,"Lakeland, FL",3,1082.0,2,28.1,-81.98,City of Lakeland
+582,"Lancaster, PA",1,785.0,2,40.04,-76.23,Outer Lancaster
+583,"Lancaster, PA",2,755.0,2,40.07,-76.36,Outer Lancaster
+584,"Lancaster, PA",3,672.0,3,40.02,-76.32,Prospect Heights
+585,"Lansing, MI",1,1495.0,2,42.69,-84.51,Forest View
+586,"Lansing, MI",2,1316.0,6,42.75,-84.66,Delta Township
+587,"Lansing, MI",3,703.0,5,42.73,-84.56,Downtown Lansing
+588,"Laredo, TX",1,424.0,1,27.5,-99.45,Texas South Area
+589,"Laredo, TX",2,385.0,1,27.6,-99.52,Texas South Area
+590,"Laredo, TX",3,310.0,2,27.58,-99.46,Texas South Area
+591,"Las Cruces, NM",1,792.0,5,32.33,-106.74,Las Cruces/Alamogordo
+592,"Las Cruces, NM",2,724.0,6,32.29,-106.74,Las Cruces/Alamogordo
+593,"Las Cruces, NM",3,505.0,5,32.31,-106.74,Las Cruces/Alamogordo
+594,"Las Vegas, NV",1,3630.0,15,36.12,-115.15,University District
+595,"Las Vegas, NV",2,2321.0,6,36.08,-115.03,Midway
+596,"Las Vegas, NV",3,2315.0,9,36.12,-115.14,University District
+597,"Lawrence, KS",1,1360.0,3,38.98,-95.32,West Lawrence
+598,"Lawrence, KS",2,1204.0,11,38.94,-95.26,South Lawrence
+599,"Lawrence, KS",3,699.0,2,38.96,-95.27,Sunset Hills
+600,"Lawton, OK",1,878.0,4,34.61,-98.35,Oklahoma West Area
+601,"Lawton, OK",2,522.0,2,34.61,-98.42,Oklahoma West Area
+602,"Lawton, OK",3,478.0,3,34.61,-98.45,Oklahoma West Area
+603,"Lebanon, PA",1,560.0,3,40.32,-76.43,Lebanon
+604,"Lebanon, PA",2,288.0,3,40.35,-76.43,Lebanon
+605,"Lebanon, PA",3,218.0,1,40.29,-76.59,Palmyra
+606,"Lehigh Valley, PA",1,1520.0,13,40.6,-75.47,City Center
+607,"Lehigh Valley, PA",2,851.0,7,40.6,-75.48,City Center
+608,"Lehigh Valley, PA",3,812.0,1,40.83,-74.83,Warren County
+609,"Lewiston, ID",1,162.0,2,46.41,-117.08,Asotin
+610,"Lewiston, ID",2,120.0,1,46.39,-117.01,Nez Perce
+611,"Lewiston, ID",3,102.0,1,46.38,-117.0,Nez Perce
+612,"Lewiston-Auburn, ME",1,296.0,1,44.12,-70.21,
+613,"Lewiston-Auburn, ME",2,241.0,2,44.1,-70.22,Maine South & Augusta
+614,"Lewiston-Auburn, ME",3,168.0,1,44.12,-70.23,Portland Surrounding
+615,"Lexington, KY",1,1339.0,11,38.05,-84.55,West Lexington
+616,"Lexington, KY",2,938.0,2,37.97,-84.49,Outer South Fayette County
+617,"Lexington, KY",3,874.0,3,37.98,-84.53,South Lexington
+618,"Lima, OH",1,332.0,3,40.77,-84.13,Lima/Findlay
+619,"Lima, OH",2,282.0,2,40.77,-84.12,Lima/Findlay
+620,"Lima, OH",3,275.0,1,40.77,-84.14,
+621,"Lincoln, NE",1,1030.0,3,40.83,-96.64,Bethany
+622,"Lincoln, NE",2,825.0,3,40.72,-96.67,South Lincoln
+623,"Lincoln, NE",3,807.0,3,40.78,-96.62,South Lincoln
+624,"Little Rock, AR",1,1459.0,8,34.77,-92.31,Riverdale
+625,"Little Rock, AR",2,1023.0,2,34.78,-92.24,North Little Rock
+626,"Little Rock, AR",3,984.0,2,34.61,-92.52,Saline County
+627,"Logan, UT",1,636.0,5,41.76,-111.84,Bridger
+628,"Logan, UT",2,543.0,2,41.73,-111.86,Ellis
+629,"Logan, UT",3,413.0,1,41.77,-111.83,North Logan
+630,"Long Island, NY",1,2000.0,1,40.8,-73.29,Brentwood
+631,"Long Island, NY",2,1591.0,8,40.71,-73.62,Hempstead
+632,"Long Island, NY",3,1469.0,8,40.71,-73.63,Hempstead
+633,"Longview, TX",1,1128.0,5,32.55,-94.75,Tyler & Longview
+634,"Longview, TX",2,728.0,3,32.51,-94.77,Tyler & Longview
+635,"Longview, TX",3,492.0,2,32.55,-94.72,Tyler & Longview
+636,"Longview, WA",1,298.0,2,46.18,-122.91,Kelso
+637,"Longview, WA",2,196.0,1,46.17,-122.98,Mint Valley
+638,"Longview, WA",3,192.0,2,46.13,-122.97,Highlands
+639,"Los Angeles, CA",1,11047.0,37,34.04,-118.26,South Park
+640,"Los Angeles, CA",2,10095.0,28,34.05,-118.26,Financial District
+641,"Los Angeles, CA",3,9317.0,42,34.05,-118.25,Historic Downtown LA
+642,"Louisville, KY",1,1922.0,10,38.25,-85.76,Fourth Street
+643,"Louisville, KY",2,1850.0,7,38.25,-85.74,NuLu
+644,"Louisville, KY",3,1584.0,3,38.24,-85.63,S Outer St Matthews/Lyndon
+645,"Lubbock, TX",1,1637.0,9,33.55,-101.93,Wester
+646,"Lubbock, TX",2,1021.0,5,33.54,-101.93,Wester
+647,"Lubbock, TX",3,845.0,4,33.57,-101.94,Bowie
+648,"Lynchburg, VA",1,720.0,1,37.38,-79.23,Lynchburg
+649,"Lynchburg, VA",2,650.0,1,37.29,-79.16,Lynchburg
+650,"Lynchburg, VA",3,557.0,3,37.34,-79.23,Cornerstone
+651,"Macon, GA",1,738.0,6,32.9,-83.7,Bibb County
+652,"Macon, GA",2,714.0,3,32.84,-83.75,Bibb County
+653,"Macon, GA",3,624.0,4,32.83,-83.72,Bibb County
+654,"Madera, CA",1,392.0,6,37.11,-120.28,Chowchilla
+655,"Madera, CA",2,339.0,4,36.95,-120.06,Madera
+656,"Madera, CA",3,286.0,4,36.98,-120.05,Madera
+657,"Madison, WI",1,3906.0,34,43.07,-89.39,Downtown Madison
+658,"Madison, WI",2,2303.0,16,43.07,-89.4,Downtown Madison
+659,"Madison, WI",3,1872.0,11,43.07,-89.46,West Madison
+660,"Manchester, NH",1,1657.0,3,42.71,-71.45,Southeast Nashua
+661,"Manchester, NH",2,1157.0,12,42.99,-71.46,Downtown Manchester
+662,"Manchester, NH",3,1006.0,5,42.76,-71.47,Mine Falls Park
+663,"Manhattan, KS",1,724.0,2,39.22,-96.56,Kansas Area
+664,"Manhattan, KS",2,704.0,3,39.19,-96.64,Kansas Area
+665,"Manhattan, KS",3,559.0,3,39.19,-96.6,Kansas Area
+666,"Mankato, MN",1,859.0,5,44.15,-93.99,University
+667,"Mankato, MN",2,498.0,2,44.17,-93.94,East Mankato
+668,"Mankato, MN",3,336.0,3,44.17,-94.04,North Mankato
+669,"Mansfield, OH",1,244.0,2,40.73,-82.51,Mansfield
+670,"Mansfield, OH",2,214.0,2,40.73,-82.53,Mansfield
+671,"Mansfield, OH",3,190.0,2,40.75,-82.53,Mansfield
+672,"McAllen, TX",1,721.0,3,26.17,-97.95,Donna/Weslaco/Mercedes
+673,"McAllen, TX",2,638.0,7,26.3,-98.18,Edinburg/North Hidalgo County
+674,"McAllen, TX",3,568.0,2,26.16,-98.29,Mission
+675,"Medford, OR",1,600.0,1,42.3,-122.85,Medford/Grants Pass
+676,"Medford, OR",2,438.0,4,42.34,-122.87,Medford/Grants Pass
+677,"Medford, OR",3,397.0,1,42.38,-122.92,Medford/Grants Pass
+678,"Melbourne, FL",1,1097.0,4,28.24,-80.73,Suburban Melbourne
+679,"Melbourne, FL",2,940.0,5,28.04,-80.62,South Brevard County
+680,"Melbourne, FL",3,934.0,6,28.06,-80.62,Downtown Melbourne
+681,"Memphis, TN",1,2132.0,6,35.06,-89.85,Hickory Hill
+682,"Memphis, TN",2,1981.0,9,35.14,-90.04,Medical District
+683,"Memphis, TN",3,1871.0,10,35.14,-90.05,Downtown Memphis
+684,"Merced, CA",1,912.0,7,37.32,-120.48,Merced County
+685,"Merced, CA",2,886.0,3,37.36,-120.58,Merced County
+686,"Merced, CA",3,612.0,7,37.32,-120.49,Merced County
+687,"Miami, FL",1,12968.0,19,25.78,-80.19,Park West
+688,"Miami, FL",2,11508.0,38,25.8,-80.19,Edgewater
+689,"Miami, FL",3,7360.0,15,25.79,-80.19,Media & Entertainment District
+690,"Michigan City-La Porte, IN",1,572.0,1,41.68,-86.88,South Bend/Elkhart
+691,"Michigan City-La Porte, IN",2,496.0,3,41.59,-86.74,South Bend/Elkhart
+692,"Michigan City-La Porte, IN",3,410.0,3,41.69,-86.87,South Bend/Elkhart
+693,"Midland, MI",1,454.0,1,43.64,-84.29,Midland/Flint
+694,"Midland, MI",2,286.0,2,43.62,-84.2,Midland/Flint
+695,"Midland, MI",3,285.0,2,43.65,-84.29,Midland/Flint
+696,"Midland, TX",1,1200.0,6,31.98,-102.06,Midland & Odessa
+697,"Midland, TX",2,998.0,3,32.06,-102.08,Midland & Odessa
+698,"Midland, TX",3,784.0,6,32.01,-102.14,Midland & Odessa
+699,"Milwaukee, WI",1,2924.0,16,43.04,-87.91,Juneau Town
+700,"Milwaukee, WI",2,2412.0,16,43.05,-87.91,Brewer's Hill
+701,"Milwaukee, WI",3,2033.0,17,43.05,-87.9,Yankee Hill
+702,"Minneapolis, MN",1,5648.0,36,44.97,-93.28,Loring Park
+703,"Minneapolis, MN",2,4142.0,25,44.95,-93.09,Lowertown
+704,"Minneapolis, MN",3,3689.0,14,44.98,-93.27,Warehouse District
+705,"Missoula, MT",1,1029.0,5,46.89,-114.05,Missoula
+706,"Missoula, MT",2,643.0,1,46.9,-114.07,Missoula
+707,"Missoula, MT",3,350.0,2,46.85,-114.04,Missoula
+708,"Mobile, AL",1,1121.0,3,30.67,-88.15,Airmont
+709,"Mobile, AL",2,872.0,2,30.66,-88.18,Claremont
+710,"Mobile, AL",3,858.0,4,30.66,-88.19,Claremont
+711,"Modesto, CA",1,799.0,6,37.69,-121.03,North Modesto
+712,"Modesto, CA",2,588.0,2,37.61,-120.97,Outer Ceres/Keyes
+713,"Modesto, CA",3,582.0,2,37.69,-121.05,North Modesto
+714,"Monroe, LA",1,653.0,5,32.52,-92.12,Louisiana North Area
+715,"Monroe, LA",2,451.0,2,32.56,-92.07,Louisiana North Area
+716,"Monroe, LA",3,435.0,2,32.44,-92.1,Louisiana North Area
+717,"Monroe, MI",1,692.0,4,41.94,-83.41,Monroe
+718,"Monroe, MI",2,396.0,1,41.96,-83.68,Outlying Monroe County
+719,"Monroe, MI",3,310.0,2,41.95,-83.41,Monroe
+720,"Montgomery, AL",1,1168.0,5,32.33,-86.23,Outer South/Airport
+721,"Montgomery, AL",2,997.0,4,32.35,-86.22,Outer East
+722,"Montgomery, AL",3,897.0,4,32.36,-86.21,Outer East
+723,"Morgantown, WV",1,861.0,5,39.65,-79.95,West Virginia North Area
+724,"Morgantown, WV",2,748.0,4,39.66,-79.95,West Virginia North Area
+725,"Morgantown, WV",3,351.0,1,39.66,-79.93,West Virginia North Area
+726,"Morristown, TN",1,300.0,1,36.22,-83.25,Tennessee East Area
+727,"Morristown, TN",2,149.0,1,36.13,-83.5,Tennessee East Area
+728,"Morristown, TN",3,143.0,2,36.21,-83.28,Tennessee East Area
+729,"Mount Vernon, WA",1,391.0,2,48.43,-122.31,Bellingham/Northwest
+730,"Mount Vernon, WA",2,385.0,4,48.47,-122.34,Bellingham/Northwest
+731,"Mount Vernon, WA",3,222.0,2,48.45,-122.34,Bellingham/Northwest
+732,"Muncie, IN",1,376.0,2,40.22,-85.43,North Muncie
+733,"Muncie, IN",2,364.0,3,40.22,-85.37,North Muncie
+734,"Muncie, IN",3,310.0,1,40.19,-85.44,North Muncie
+735,"Muskegon, MI",1,891.0,3,43.24,-86.2,E Muskegon/Norton Shores
+736,"Muskegon, MI",2,375.0,3,43.21,-86.27,Campbell Field
+737,"Muskegon, MI",3,314.0,2,43.14,-86.22,Norton Shores
+738,"Myrtle Beach, SC",1,1106.0,4,33.76,-78.85,South Horry County
+739,"Myrtle Beach, SC",2,1102.0,4,34.21,-78.02,Brunswick County
+740,"Myrtle Beach, SC",3,950.0,1,33.79,-79.1,Outlying Horry County
+741,"Napa, CA",1,550.0,2,38.29,-122.28,Soscol
+742,"Napa, CA",2,539.0,4,38.32,-122.28,Beard
+743,"Napa, CA",3,468.0,3,38.18,-122.25,American Canyon
+744,"Naples, FL",1,769.0,3,26.27,-81.75,Pelican Strand
+745,"Naples, FL",2,758.0,3,26.16,-81.69,Briarwood-Maplewood
+746,"Naples, FL",3,749.0,4,26.23,-81.77,North Naples
+747,"Nashville, TN",1,6619.0,18,36.15,-86.78,The Gulch
+748,"Nashville, TN",2,5391.0,13,36.16,-86.79,North Gulch
+749,"Nashville, TN",3,4716.0,15,36.15,-86.79,Music Row
+750,"New Bern, NC",1,341.0,3,35.13,-77.09,North Carolina Southeast Area
+751,"New Bern, NC",2,316.0,1,35.11,-77.05,Downtown New Bern
+752,"New Bern, NC",3,312.0,1,35.12,-77.09,North Carolina Southeast Area
+753,"New Haven, CT",1,2309.0,14,41.31,-72.93,Downtown New Haven
+754,"New Haven, CT",2,1667.0,7,41.31,-72.92,Downtown New Haven
+755,"New Haven, CT",3,1464.0,9,41.3,-72.92,Downtown New Haven
+756,"New Orleans, LA",1,2042.0,13,29.95,-90.07,New Orleans CBD
+757,"New Orleans, LA",2,1784.0,9,29.94,-90.07,Lower Garden District
+758,"New Orleans, LA",3,1389.0,16,30.01,-90.16,Metairie
+759,"New York, NY",1,16780.0,59,40.77,-73.99,Hell's Kitchen
+760,"New York, NY",2,15834.0,17,40.73,-73.98,Alphabet City
+761,"New York, NY",3,15228.0,42,40.71,-74.01,Financial District
+762,"Niles-Benton Harbor, MI",1,492.0,3,42.05,-86.52,Michigan Southwest Area
+763,"Niles-Benton Harbor, MI",2,376.0,1,42.08,-86.5,Michigan Southwest Area
+764,"Niles-Benton Harbor, MI",3,370.0,1,42.08,-86.44,Michigan Southwest Area
+765,"Norfolk, VA",1,2425.0,17,36.85,-76.29,Downtown Norfolk
+766,"Norfolk, VA",2,1868.0,8,36.85,-76.28,Tidewater Gardens
+767,"Norfolk, VA",3,1637.0,7,36.84,-76.13,Northwest Virginia Beach
+768,"Northern New Jersey, NJ",1,5978.0,7,40.75,-74.17,Seventh Avenue
+769,"Northern New Jersey, NJ",2,5963.0,17,40.74,-74.17,Downtown Newark
+770,"Northern New Jersey, NJ",3,2705.0,17,40.77,-74.22,Lower Essex County
+771,"Northwest Arkansas, AR",1,1145.0,3,36.16,-94.12,Outer Northeast Washington County
+772,"Northwest Arkansas, AR",2,1057.0,8,36.09,-94.17,Greater Fayetteville
+773,"Northwest Arkansas, AR",3,1051.0,4,36.33,-94.22,Outer Central Benton County
+774,"Norwich, CT",1,780.0,2,41.33,-72.07,New London
+775,"Norwich, CT",2,703.0,2,41.34,-72.1,New London
+776,"Norwich, CT",3,614.0,3,41.33,-72.11,New London
+777,"Ocala, FL",1,860.0,1,29.17,-82.2,Southwest Ocala
+778,"Ocala, FL",2,773.0,3,29.14,-82.2,Southwest Ocala
+779,"Ocala, FL",3,624.0,2,29.14,-82.19,Southwest Ocala
+780,"Ocean City, NJ",1,205.0,1,38.93,-74.92,South Shore/Vineland
+781,"Ocean City, NJ",2,170.0,2,38.98,-74.94,South Shore/Vineland
+782,"Ocean City, NJ",3,142.0,1,38.97,-74.94,South Shore/Vineland
+783,"Odessa, TX",1,994.0,5,31.9,-102.34,Midland & Odessa
+784,"Odessa, TX",2,888.0,3,31.91,-102.29,Midland & Odessa
+785,"Odessa, TX",3,688.0,4,31.88,-102.32,Midland & Odessa
+786,"Ogden, UT",1,1012.0,5,40.99,-111.91,Central Davis County
+787,"Ogden, UT",2,1008.0,5,40.84,-111.91,Southern Davis County
+788,"Ogden, UT",3,913.0,5,41.23,-111.97,Downtown Ogden
+789,"Oklahoma City, OK",1,2202.0,2,35.46,-97.51,Bricktown
+790,"Oklahoma City, OK",2,1866.0,3,35.6,-97.55,Northwest Oklahoma City
+791,"Oklahoma City, OK",3,1578.0,6,35.62,-97.56,Northwest Oklahoma City
+792,"Olympia, WA",1,1137.0,4,47.07,-122.79,East Olympia
+793,"Olympia, WA",2,967.0,4,47.04,-122.95,West Olympia
+794,"Olympia, WA",3,857.0,5,47.04,-122.93,South Westside
+795,"Omaha, NE",1,1950.0,10,41.26,-95.94,Downtown Omaha
+796,"Omaha, NE",2,1604.0,8,41.23,-96.02,West Albright/Bonfield
+797,"Omaha, NE",3,1513.0,3,41.28,-96.09,West Omaha
+798,"Orange County, CA",1,6608.0,6,33.7,-117.89,South Coast Metro
+799,"Orange County, CA",2,4441.0,4,33.7,-117.88,South Coast Metro
+800,"Orange County, CA",3,3531.0,2,33.64,-117.75,Irvine Spectrum
+801,"Orlando, FL",1,3617.0,7,28.59,-81.43,Rosemont
+802,"Orlando, FL",2,2858.0,9,28.55,-81.38,Arts District
+803,"Orlando, FL",3,2707.0,11,28.49,-81.4,Park Central
+804,"Oshkosh-Neenah, WI",1,992.0,4,44.02,-88.6,Appleton/Oshkosh
+805,"Oshkosh-Neenah, WI",2,540.0,4,44.03,-88.58,Appleton/Oshkosh
+806,"Oshkosh-Neenah, WI",3,522.0,2,44.07,-88.58,Appleton/Oshkosh
+807,"Owensboro, KY",1,542.0,3,37.74,-87.09,Kentucky West Area
+808,"Owensboro, KY",2,320.0,1,37.75,-87.06,Kentucky West Area
+809,"Owensboro, KY",3,249.0,1,37.76,-87.15,Kentucky West Area
+810,"Palm Beach, FL",1,2713.0,9,26.71,-80.06,Downtown West Palm Beach
+811,"Palm Beach, FL",2,2680.0,8,26.53,-80.06,Outer Boynton Beach
+812,"Palm Beach, FL",3,2203.0,9,26.71,-80.05,Downtown West Palm Beach
+813,"Panama City, FL",1,700.0,1,30.23,-85.57,Panama City
+814,"Panama City, FL",2,660.0,2,30.19,-85.8,Panama City
+815,"Panama City, FL",3,654.0,3,30.18,-85.67,Panama City
+816,"Parkersburg, WV",1,220.0,2,39.3,-81.53,West Virginia North Area
+817,"Parkersburg, WV",2,176.0,1,39.29,-81.54,West Virginia North Area
+818,"Parkersburg, WV",3,160.0,2,39.27,-81.55,West Virginia North Area
+819,"Pensacola, FL",1,746.0,3,30.53,-87.3,Ensley
+820,"Pensacola, FL",2,668.0,2,30.53,-87.35,Brent-NW Pensacola
+821,"Pensacola, FL",3,660.0,2,30.52,-87.23,Ferry Pass
+822,"Peoria, IL",1,750.0,3,40.76,-89.64,North Peoria
+823,"Peoria, IL",2,750.0,1,40.81,-89.62,North Peoria
+824,"Peoria, IL",3,618.0,4,40.69,-89.6,Downtown Peoria
+825,"Philadelphia, PA",1,7023.0,42,39.95,-75.17,Center City West
+826,"Philadelphia, PA",2,5326.0,28,39.95,-75.16,Midtown Village
+827,"Philadelphia, PA",3,4636.0,18,39.96,-75.17,Fairmount-Art Museum
+828,"Phoenix, AZ",1,8960.0,1,33.8,-112.16,North Gateway
+829,"Phoenix, AZ",2,6726.0,24,33.46,-112.07,Roosevelt Row
+830,"Phoenix, AZ",3,3407.0,4,33.43,-111.92,Downtown Tempe
+831,"Pine Bluff, AR",1,276.0,1,34.25,-92.02,Arkansas South Area
+832,"Pine Bluff, AR",2,253.0,1,34.24,-92.05,Arkansas South Area
+833,"Pine Bluff, AR",3,190.0,2,34.18,-92.0,Arkansas South Area
+834,"Pittsburgh, PA",1,3096.0,19,40.44,-80.0,Cultural District
+835,"Pittsburgh, PA",2,2201.0,11,40.46,-79.97,Strip District
+836,"Pittsburgh, PA",3,2108.0,19,40.45,-79.95,North Oakland
+837,"Pittsfield, MA",1,321.0,4,42.45,-73.25,Massachusetts North/West Area
+838,"Pittsfield, MA",2,257.0,3,42.7,-73.11,Massachusetts North/West Area
+839,"Pittsfield, MA",3,190.0,1,42.69,-73.09,Massachusetts North/West Area
+840,"Pocatello, ID",1,404.0,1,42.92,-112.43,Idaho South Area
+841,"Pocatello, ID",2,294.0,2,42.91,-112.47,Idaho South Area
+842,"Pocatello, ID",3,264.0,2,42.9,-112.42,Idaho South Area
+843,"Port St. Lucie, FL",1,1168.0,3,27.26,-80.43,Tradition
+844,"Port St. Lucie, FL",2,576.0,2,27.25,-80.28,Jensen Beach
+845,"Port St. Lucie, FL",3,500.0,2,27.42,-80.38,Outer Fort Pierce
+846,"Portland, ME",1,1593.0,15,43.66,-70.26,City Center
+847,"Portland, ME",2,667.0,7,43.65,-70.27,City Center
+848,"Portland, ME",3,662.0,5,43.64,-70.31,South Portland
+849,"Portland, OR",1,4884.0,33,45.53,-122.69,Uptown Portland
+850,"Portland, OR",2,4704.0,26,45.53,-122.68,Pearl
+851,"Portland, OR",3,3895.0,31,45.52,-122.69,Goose Hollow
+852,"Poughkeepsie, NY",1,840.0,1,41.55,-73.95,Wappingers Falls
+853,"Poughkeepsie, NY",2,801.0,1,41.74,-73.93,Outlying Dutchess County
+854,"Poughkeepsie, NY",3,699.0,6,41.7,-73.93,Downtown Poughkeepsie
+855,"Prescott, AZ",1,543.0,2,34.59,-112.34,Prescott & Sedona
+856,"Prescott, AZ",2,480.0,2,34.57,-111.87,Prescott & Sedona
+857,"Prescott, AZ",3,456.0,4,34.6,-112.46,Prescott & Sedona
+858,"Providence, RI",1,1355.0,10,41.82,-71.41,Downtown Providence
+859,"Providence, RI",2,929.0,6,41.7,-71.16,Downtown Fall River
+860,"Providence, RI",3,929.0,7,41.88,-71.39,Downtown Pawtucket
+861,"Provo, UT",1,1574.0,5,40.3,-111.74,Outer Orem
+862,"Provo, UT",2,1375.0,2,40.03,-111.76,Central/South Utah County
+863,"Provo, UT",3,1050.0,8,40.23,-111.66,Downtown Provo
+864,"Pueblo, CO",1,459.0,2,38.3,-104.66,Colorado East Area
+865,"Pueblo, CO",2,375.0,3,38.3,-104.6,Colorado East Area
+866,"Pueblo, CO",3,332.0,1,38.32,-104.62,Colorado East Area
+867,"Punta Gorda, FL",1,536.0,2,27.02,-82.05,Port Charlotte
+868,"Punta Gorda, FL",2,504.0,2,27.02,-82.18,Port Charlotte
+869,"Punta Gorda, FL",3,373.0,1,26.78,-81.75,Outlying Punta Gorda
+870,"Racine, WI",1,880.0,2,42.68,-87.86,Mount Pleasant
+871,"Racine, WI",2,600.0,1,42.69,-87.87,Sturtevant
+872,"Racine, WI",3,497.0,4,42.73,-87.78,Downtown Racine
+873,"Raleigh, NC",1,3638.0,6,35.83,-78.63,Midtown Raleigh
+874,"Raleigh, NC",2,3240.0,13,35.78,-78.65,Capital District
+875,"Raleigh, NC",3,2662.0,8,35.78,-78.64,Capital District
+876,"Rapid City, SD",1,780.0,1,44.15,-103.07,Rapid City
+877,"Rapid City, SD",2,761.0,2,44.06,-103.16,Rapid City
+878,"Rapid City, SD",3,650.0,1,44.09,-103.18,Rapid City
+879,"Reading, PA",1,1058.0,4,40.36,-75.95,Glenside
+880,"Reading, PA",2,681.0,2,40.32,-75.95,Southwest Reading
+881,"Reading, PA",3,551.0,1,40.28,-75.91,Outer Kenhorst/Shillington
+882,"Redding, CA",1,687.0,6,40.6,-122.37,Redding/Chico
+883,"Redding, CA",2,293.0,4,40.58,-122.39,Redding/Chico
+884,"Redding, CA",3,244.0,3,40.58,-122.34,Redding/Chico
+885,"Reno, NV",1,2652.0,11,39.53,-119.81,Downtown Reno
+886,"Reno, NV",2,2355.0,9,39.5,-119.8,Sierra Meadows
+887,"Reno, NV",3,1987.0,5,39.54,-119.72,Sparks Marina
+888,"Richmond, VA",1,3792.0,17,37.57,-77.47,Scott's Addition
+889,"Richmond, VA",2,3556.0,21,37.52,-77.44,Old Town Manchester
+890,"Richmond, VA",3,2875.0,18,37.54,-77.44,City Center Richmond
+891,"Roanoke, VA",1,924.0,3,37.23,-79.99,Cave Spring
+892,"Roanoke, VA",2,707.0,8,37.27,-79.94,Downtown Roanoke City
+893,"Roanoke, VA",3,504.0,1,37.24,-80.01,Cave Spring
+894,"Rochester, MN",1,766.0,1,44.07,-92.54,Rochester
+895,"Rochester, MN",2,763.0,8,44.02,-92.46,Downtown Rochester
+896,"Rochester, MN",3,476.0,2,44.02,-92.5,Historic Southwest
+897,"Rochester, NY",1,1360.0,1,43.1,-77.62,South Monroe County
+898,"Rochester, NY",2,1238.0,12,43.16,-77.61,Downtown Rochester
+899,"Rochester, NY",3,1116.0,6,43.1,-77.57,Outer Brighton/Fairport
+900,"Rockford, IL",1,1209.0,2,42.22,-89.02,Outer South Rockford
+901,"Rockford, IL",2,544.0,2,42.27,-89.0,East Rockford
+902,"Rockford, IL",3,378.0,4,42.28,-89.09,Churchill Grove
+903,"Rocky Mount, NC",1,321.0,2,35.99,-77.79,Rocky Mount/Wilson
+904,"Rocky Mount, NC",2,286.0,2,35.96,-77.85,Rocky Mount/Wilson
+905,"Rocky Mount, NC",3,274.0,1,35.99,-77.84,Rocky Mount/Wilson
+906,"Rome, GA",1,491.0,4,34.22,-85.16,Georgia Northwest
+907,"Rome, GA",2,304.0,2,34.28,-85.2,Georgia Northwest
+908,"Rome, GA",3,250.0,1,34.26,-85.17,Georgia Northwest
+909,"Sacramento, CA",1,2029.0,9,38.58,-121.5,Capitol Park
+910,"Sacramento, CA",2,1910.0,11,38.58,-121.49,Capitol Park
+911,"Sacramento, CA",3,1560.0,11,38.58,-121.52,The Bridge District
+912,"Saginaw, MI",1,580.0,5,43.4,-83.92,Midland/Flint
+913,"Saginaw, MI",2,560.0,3,43.44,-84.03,Midland/Flint
+914,"Saginaw, MI",3,428.0,2,43.43,-84.04,Midland/Flint
+915,"Saint Louis, MO",1,3470.0,24,38.64,-90.26,Central West End
+916,"Saint Louis, MO",2,3038.0,18,38.63,-90.19,Convention Center
+917,"Saint Louis, MO",3,2740.0,16,38.63,-90.2,Downtown West St Louis
+918,"Salem, OR",1,1196.0,8,44.98,-122.99,Hayesville
+919,"Salem, OR",2,1137.0,9,44.87,-123.02,South Gateway
+920,"Salem, OR",3,786.0,2,45.14,-122.89,North Marion County
+921,"Salinas, CA",1,958.0,5,36.69,-121.66,Elkhorn/Pajaro
+922,"Salinas, CA",2,943.0,6,36.71,-121.65,Greater Salinas
+923,"Salinas, CA",3,620.0,1,36.66,-121.76,Outer Monterey
+924,"Salisbury, MD",1,756.0,2,38.41,-75.56,Chesapeake Bay/Salisbury
+925,"Salisbury, MD",2,648.0,4,38.35,-75.58,Chesapeake Bay/Salisbury
+926,"Salisbury, MD",3,458.0,2,38.43,-75.56,Chesapeake Bay/Salisbury
+927,"Salt Lake City, UT",1,4163.0,22,40.76,-111.9,Central Salt Lake City
+928,"Salt Lake City, UT",2,3685.0,25,40.76,-111.88,Central Salt Lake City
+929,"Salt Lake City, UT",3,3146.0,18,40.77,-111.91,Central Salt Lake City
+930,"San Angelo, TX",1,636.0,3,31.41,-100.48,Texas West Area
+931,"San Angelo, TX",2,515.0,4,31.42,-100.49,Texas West Area
+932,"San Angelo, TX",3,496.0,2,31.42,-100.48,Texas West Area
+933,"San Antonio, TX",1,3224.0,16,29.44,-98.48,Pearl
+934,"San Antonio, TX",2,2882.0,10,29.55,-98.52,Castle Hills Forest
+935,"San Antonio, TX",3,2824.0,8,29.52,-98.56,Medical Center
+936,"San Diego, CA",1,10074.0,36,32.71,-117.15,East Village
+937,"San Diego, CA",2,6655.0,31,32.72,-117.16,Marina District
+938,"San Diego, CA",3,4461.0,12,32.87,-117.22,University City
+939,"San Francisco, CA",1,8779.0,66,37.78,-122.41,Civic Center
+940,"San Francisco, CA",2,6362.0,42,37.78,-122.42,Civic Center
+941,"San Francisco, CA",3,5885.0,21,37.78,-122.4,Mission Bay
+942,"San Jose, CA",1,4468.0,13,37.41,-121.96,Outer Santa Clara
+943,"San Jose, CA",2,4157.0,11,37.41,-121.94,Outer North San Jose
+944,"San Jose, CA",3,3819.0,8,37.41,-121.97,Outer Santa Clara
+945,"San Luis Obispo, CA",1,777.0,5,35.46,-120.64,Atascadero/Templeton
+946,"San Luis Obispo, CA",2,556.0,4,35.26,-120.69,San Luis Obispo
+947,"San Luis Obispo, CA",3,400.0,1,35.6,-120.66,Paso Robles
+948,"San Rafael, CA",1,1556.0,2,38.0,-122.54,Terra Linda
+949,"San Rafael, CA",2,1081.0,1,38.12,-122.57,Novato
+950,"San Rafael, CA",3,700.0,2,37.95,-122.53,Outer San Rafael/Larkspur
+951,"Santa Barbara, CA",1,692.0,5,34.65,-120.46,Greater Lompoc
+952,"Santa Barbara, CA",2,549.0,5,34.64,-120.47,Greater Lompoc
+953,"Santa Barbara, CA",3,517.0,2,34.94,-120.45,Santa Maria
+954,"Santa Cruz, CA",1,892.0,7,36.97,-122.02,Downtown Santa Cruz
+955,"Santa Cruz, CA",2,715.0,7,36.97,-122.03,Downtown Santa Cruz
+956,"Santa Cruz, CA",3,489.0,2,36.99,-121.97,Outlying Santa Cruz County
+957,"Santa Fe, NM",1,1660.0,2,35.62,-106.05,Southwest Santa Fe
+958,"Santa Fe, NM",2,703.0,3,35.61,-106.03,Southwest Santa Fe
+959,"Santa Fe, NM",3,584.0,3,35.65,-105.96,Southwest Santa Fe
+960,"Santa Rosa, CA",1,1464.0,1,38.51,-122.79,Outer Santa Rosa
+961,"Santa Rosa, CA",2,1050.0,9,38.46,-122.73,Outer Santa Rosa
+962,"Santa Rosa, CA",3,783.0,6,38.45,-122.73,Downtown Santa Rosa
+963,"Sarasota, FL",1,1500.0,8,27.34,-82.54,Downtown Sarasota
+964,"Sarasota, FL",2,1097.0,1,27.24,-82.42,South Sarasota
+965,"Sarasota, FL",3,900.0,4,27.39,-82.52,Whitfield
+966,"Savannah, GA",1,1125.0,5,32.18,-81.23,Godley Station
+967,"Savannah, GA",2,1079.0,4,32.07,-81.08,Hitch Village-Fred Wessels Homes
+968,"Savannah, GA",3,1077.0,6,31.98,-81.13,Southside
+969,"Scranton, PA",1,437.0,1,41.23,-75.92,Outer Wilkes-Barre
+970,"Scranton, PA",2,413.0,3,41.41,-75.66,Pine Brook
+971,"Scranton, PA",3,341.0,1,41.24,-75.86,Wilkes-Barre
+972,"Seattle, WA",1,12326.0,40,47.62,-122.34,South Lake Union
+973,"Seattle, WA",2,10587.0,54,47.62,-122.33,South Lake Union
+974,"Seattle, WA",3,8371.0,38,47.61,-122.34,Downtown Seattle
+975,"Sebastian-Vero Beach, FL",1,459.0,2,27.62,-80.38,Fort Pierce/Port St Lucie
+976,"Sebastian-Vero Beach, FL",2,412.0,1,27.69,-80.41,Fort Pierce/Port St Lucie
+977,"Sebastian-Vero Beach, FL",3,380.0,2,27.65,-80.47,Fort Pierce/Port St Lucie
+978,"Sebring, FL",1,267.0,3,27.48,-81.43,Florida Central South Area
+979,"Sebring, FL",2,132.0,2,27.58,-81.51,Florida Central South Area
+980,"Sebring, FL",3,105.0,1,27.48,-81.44,Florida Central South Area
+981,"Sheboygan, WI",1,636.0,4,43.79,-87.76,Outlying Sheboygan County
+982,"Sheboygan, WI",2,492.0,2,43.71,-87.74,Country Village
+983,"Sheboygan, WI",3,455.0,3,43.73,-87.74,Outer City of Sheboygan
+984,"Sherman-Denison, TX",1,7500.0,1,33.84,-96.65,Texas East Area
+985,"Sherman-Denison, TX",2,601.0,3,33.62,-96.64,Texas East Area
+986,"Sherman-Denison, TX",3,567.0,3,33.67,-96.6,Texas East Area
+987,"Shreveport, LA",1,914.0,5,32.42,-93.71,Springlake/University Terrace
+988,"Shreveport, LA",2,893.0,4,32.48,-93.7,Barksdale
+989,"Shreveport, LA",3,796.0,3,32.43,-93.72,East Shreveport
+990,"Sierra Vista-Douglas, AZ",1,812.0,4,31.55,-110.25,Arizona SE & Sierra Vista Area
+991,"Sierra Vista-Douglas, AZ",2,698.0,4,31.55,-110.28,Arizona SE & Sierra Vista Area
+992,"Sierra Vista-Douglas, AZ",3,436.0,3,31.56,-110.29,Arizona SE & Sierra Vista Area
+993,"Sioux City, IA",1,515.0,3,42.45,-96.33,Iowa West Area
+994,"Sioux City, IA",2,386.0,3,42.5,-96.49,South Dakota Area
+995,"Sioux City, IA",3,372.0,2,42.48,-96.4,Nebraska Area
+996,"Sioux Falls, SD",1,1200.0,6,43.6,-96.79,Sioux Falls
+997,"Sioux Falls, SD",2,1115.0,6,43.5,-96.78,Sioux Falls
+998,"Sioux Falls, SD",3,860.0,5,43.5,-96.67,Sioux Falls
+999,"South Bend, IN",1,1134.0,1,41.63,-86.16,Mishawaka
+1000,"South Bend, IN",2,1113.0,1,41.64,-86.21,Southside South Bend
+1001,"South Bend, IN",3,964.0,2,41.72,-86.29,Council Oak
+1002,"Spartanburg, SC",1,1188.0,1,35.06,-81.98,North Spartanburg County
+1003,"Spartanburg, SC",2,696.0,1,34.94,-82.06,West Spartanburg County
+1004,"Spartanburg, SC",3,608.0,2,34.95,-82.0,Arcadia
+1005,"Spokane, WA",1,1345.0,3,47.67,-117.18,Greenacres
+1006,"Spokane, WA",2,1319.0,8,47.68,-117.24,Mirabeau
+1007,"Spokane, WA",3,1296.0,6,47.61,-117.37,Moran Prairie
+1008,"Springfield , MA",1,1120.0,10,42.1,-72.58,South End Hampden
+1009,"Springfield , MA",2,1044.0,7,42.1,-72.59,Downtown Springfield
+1010,"Springfield , MA",3,754.0,3,42.15,-72.61,East Hampden County
+1011,"Springfield , MO",1,898.0,5,37.19,-93.32,Outer Southwest Springfield
+1012,"Springfield , MO",2,841.0,5,37.16,-93.31,Outer Southwest Springfield
+1013,"Springfield , MO",3,815.0,6,37.17,-93.23,Southern Hills
+1014,"Springfield , OH",1,231.0,2,39.9,-83.81,Springfield
+1015,"Springfield , OH",2,215.0,2,39.92,-83.77,Springfield
+1016,"Springfield , OH",3,214.0,1,39.92,-83.76,Springfield
+1017,"Springfield, IL",1,1240.0,6,39.76,-89.68,Springfield/Decatur
+1018,"Springfield, IL",2,568.0,5,39.8,-89.65,Downtown Springfield
+1019,"Springfield, IL",3,400.0,4,39.77,-89.72,Springfield/Decatur
+1020,"St. Cloud, MN",1,892.0,7,45.54,-94.2,Outlying Stearns County
+1021,"St. Cloud, MN",2,694.0,5,45.57,-94.13,Outlying Benton County
+1022,"St. Cloud, MN",3,609.0,5,45.6,-94.22,Outlying Stearns County
+1023,"St. George, UT",1,534.0,2,37.13,-113.48,Cedar City & St George
+1024,"St. George, UT",2,380.0,2,37.14,-113.49,Cedar City & St George
+1025,"St. George, UT",3,359.0,2,37.1,-113.54,Cedar City & St George
+1026,"St. Joseph, MO",1,445.0,2,39.79,-94.8,Buchanan County
+1027,"St. Joseph, MO",2,301.0,1,39.75,-94.85,Buchanan County
+1028,"St. Joseph, MO",3,285.0,1,39.78,-94.81,Buchanan County
+1029,"Stamford, CT",1,4533.0,20,41.05,-73.54,Downtown Stamford
+1030,"Stamford, CT",2,4302.0,24,41.06,-73.54,Downtown Stamford
+1031,"Stamford, CT",3,3940.0,14,41.04,-73.54,Harbor Point
+1032,"State College, PA",1,1217.0,2,40.82,-77.89,Pennsylvania Central Area
+1033,"State College, PA",2,337.0,3,40.77,-77.86,Orchard Park
+1034,"State College, PA",3,314.0,2,40.8,-77.89,Pennsylvania Central Area
+1035,"Staunton-Waynesboro, VA",1,524.0,2,38.06,-78.93,Staunton & Harrisonburg
+1036,"Staunton-Waynesboro, VA",2,352.0,1,38.1,-79.0,Staunton & Harrisonburg
+1037,"Staunton-Waynesboro, VA",3,312.0,2,38.08,-78.93,Staunton & Harrisonburg
+1038,"Stockton, CA",1,780.0,5,38.02,-121.36,Outer Lakeview
+1039,"Stockton, CA",2,743.0,5,37.99,-121.32,Weberstown/Kentfield
+1040,"Stockton, CA",3,703.0,5,38.0,-121.29,Outer Valley Oak
+1041,"Sumter, SC",1,785.0,3,33.96,-80.42,Orangeburg/Sumter
+1042,"Sumter, SC",2,476.0,2,33.9,-80.37,Orangeburg/Sumter
+1043,"Sumter, SC",3,333.0,2,33.94,-80.38,Orangeburg/Sumter
+1044,"Syracuse, NY",1,1816.0,16,43.05,-76.15,Downtown Syracuse
+1045,"Syracuse, NY",2,1671.0,8,43.05,-76.14,Downtown Syracuse
+1046,"Syracuse, NY",3,1415.0,8,43.13,-76.21,Outer NE Onondaga County
+1047,"Tallahassee, FL",1,1279.0,5,30.44,-84.24,Governors Square
+1048,"Tallahassee, FL",2,1067.0,5,30.42,-84.23,Governors Square
+1049,"Tallahassee, FL",3,844.0,3,30.4,-84.24,Southwood
+1050,"Tampa, FL",1,9093.0,14,27.77,-82.65,Edge District
+1051,"Tampa, FL",2,5766.0,19,27.95,-82.45,Channelside
+1052,"Tampa, FL",3,4108.0,16,27.77,-82.64,Bayfront
+1053,"Terre Haute, IN",1,544.0,1,39.46,-87.33,Bloomington/Terre Haute
+1054,"Terre Haute, IN",2,448.0,1,39.38,-87.39,Bloomington/Terre Haute
+1055,"Terre Haute, IN",3,418.0,1,39.37,-87.4,Bloomington/Terre Haute
+1056,"Texarkana, TX",1,916.0,3,33.47,-94.04,Arkansas South Area
+1057,"Texarkana, TX",2,372.0,3,33.43,-94.07,Texas East Area
+1058,"Texarkana, TX",3,369.0,2,33.46,-94.07,Texas East Area
+1059,Texas Central,1,1796.0,2,31.09,-97.69,Killeen/Fort Cavazos
+1060,Texas Central,2,972.0,1,30.6,-96.38,Bryan & College Station
+1061,Texas Central,3,932.0,3,31.51,-97.15,Waco & Killeen
+1062,"The Villages, FL",1,582.0,2,28.96,-81.96,Ocala
+1063,"The Villages, FL",2,544.0,2,28.9,-82.04,Florida Central North Area
+1064,"The Villages, FL",3,484.0,2,28.93,-82.04,Florida Central North Area
+1065,"Toledo, OH",1,1378.0,8,41.66,-83.53,Vistula
+1066,"Toledo, OH",2,1063.0,4,41.62,-83.63,Reynolds Corners
+1067,"Toledo, OH",3,889.0,3,41.54,-83.6,Perrysburg
+1068,"Topeka, KS",1,709.0,5,39.01,-95.73,South/Southeast 1
+1069,"Topeka, KS",2,567.0,3,39.0,-95.7,South/Southeast 1
+1070,"Topeka, KS",3,565.0,4,39.01,-95.71,South/Southeast 1
+1071,"Trenton, NJ",1,1271.0,3,40.26,-74.81,Outer Trenton/Hamilton/Ewing
+1072,"Trenton, NJ",2,1059.0,4,40.23,-74.69,Hamilton Township
+1073,"Trenton, NJ",3,987.0,6,40.28,-74.57,Hightstown/East Windsor
+1074,"Tucson, AZ",1,1701.0,11,32.22,-110.97,Downtown Tucson
+1075,"Tucson, AZ",2,1649.0,9,32.24,-110.86,Ward 2
+1076,"Tucson, AZ",3,1488.0,6,32.34,-111.02,Casas Adobes
+1077,"Tulsa, OK",1,1456.0,4,36.06,-95.97,Kensington
+1078,"Tulsa, OK",2,1354.0,8,36.07,-95.98,South Tulsa
+1079,"Tulsa, OK",3,1349.0,4,36.05,-95.87,South Tulsa
+1080,"Tuscaloosa, AL",1,864.0,2,33.16,-87.56,Outlying South Tuscaloosa County
+1081,"Tuscaloosa, AL",2,824.0,5,33.16,-87.5,Skyland-McFarland
+1082,"Tuscaloosa, AL",3,670.0,1,33.24,-87.56,Northport-North of River
+1083,"Tyler, TX",1,913.0,5,32.3,-95.28,Tyler & Longview
+1084,"Tyler, TX",2,766.0,5,32.29,-95.31,Tyler & Longview
+1085,"Tyler, TX",3,634.0,3,32.28,-95.31,Tyler & Longview
+1086,"Utica, NY",1,526.0,2,43.22,-75.42,Rome
+1087,"Utica, NY",2,436.0,3,43.23,-75.44,Rome
+1088,"Utica, NY",3,400.0,1,43.08,-75.21,Adrian Terrace
+1089,"Valdosta, GA",1,659.0,6,30.87,-83.28,Valdosta/Lake Park
+1090,"Valdosta, GA",2,440.0,3,30.86,-83.27,Valdosta/Lake Park
+1091,"Valdosta, GA",3,436.0,2,30.89,-83.29,Valdosta/Lake Park
+1092,"Vallejo-Fairfield, CA",1,758.0,4,38.08,-122.24,South Vallejo
+1093,"Vallejo-Fairfield, CA",2,748.0,3,38.35,-121.97,Vacaville
+1094,"Vallejo-Fairfield, CA",3,699.0,6,38.26,-122.02,Fairfield
+1095,"Ventura, CA",1,1467.0,7,34.24,-119.18,South Bank
+1096,"Ventura, CA",2,1390.0,4,34.22,-119.15,East Village
+1097,"Ventura, CA",3,1306.0,5,34.22,-119.06,Camarillo
+1098,"Victoria, TX",1,570.0,5,28.82,-96.97,Texas South Area
+1099,"Victoria, TX",2,529.0,3,28.86,-96.99,Texas South Area
+1100,"Victoria, TX",3,496.0,3,28.86,-97.01,Texas South Area
+1101,"Vineland, NJ",1,411.0,2,39.4,-75.02,Vineland/Millville
+1102,"Vineland, NJ",2,340.0,2,39.48,-75.04,Vineland/Millville
+1103,"Vineland, NJ",3,327.0,4,39.49,-75.01,Vineland/Millville
+1104,"Visalia, CA",1,343.0,3,36.34,-119.26,Northeast District
+1105,"Visalia, CA",2,292.0,3,36.21,-119.37,Tulare
+1106,"Visalia, CA",3,292.0,2,36.34,-119.34,Western Visalia
+1107,"Waco, TX",1,1005.0,6,31.53,-97.18,Waco & Killeen
+1108,"Waco, TX",2,518.0,4,31.53,-97.19,Waco & Killeen
+1109,"Waco, TX",3,480.0,3,31.52,-97.19,Waco & Killeen
+1110,"Walla Walla, WA",1,192.0,2,46.08,-118.3,Washington State Area
+1111,"Walla Walla, WA",2,137.0,1,46.07,-118.34,Washington State Area
+1112,"Walla Walla, WA",3,128.0,1,46.01,-118.4,Washington State Area
+1113,"Warner Robins, GA",1,530.0,1,32.58,-83.64,Perry/Warner Robins
+1114,"Warner Robins, GA",2,524.0,2,32.61,-83.71,Perry/Warner Robins
+1115,"Warner Robins, GA",3,515.0,2,32.59,-83.63,Perry/Warner Robins
+1116,"Washington, DC",1,13421.0,33,38.88,-77.01,Capitol Riverfront
+1117,"Washington, DC",2,10888.0,28,38.91,-77.0,Union Market
+1118,"Washington, DC",3,9716.0,23,38.86,-77.05,National Landing
+1119,"Waterloo-Cedar Falls, IA",1,424.0,1,42.51,-92.44,Iowa City/Waterloo
+1120,"Waterloo-Cedar Falls, IA",2,288.0,2,42.51,-92.47,Iowa City/Waterloo
+1121,"Waterloo-Cedar Falls, IA",3,258.0,3,42.47,-92.33,Iowa City/Waterloo
+1122,"Watertown-Fort Drum, NY",1,740.0,1,44.04,-75.86,Outer Jefferson County
+1123,"Watertown-Fort Drum, NY",2,400.0,2,44.05,-75.84,Outer Jefferson County
+1124,"Watertown-Fort Drum, NY",3,394.0,1,43.98,-75.96,Outer Jefferson County
+1125,"Wausau, WI",1,532.0,3,44.95,-89.7,Wausau/Stevens Point
+1126,"Wausau, WI",2,248.0,2,44.96,-89.63,Downtown Wausau
+1127,"Wausau, WI",3,240.0,2,44.98,-89.64,Wausau/Stevens Point
+1128,"Weirton-Steubenville, WV",1,218.0,1,40.4,-80.59,West Virginia North Area
+1129,"Weirton-Steubenville, WV",2,194.0,2,40.38,-80.73,Ohio North Area
+1130,"Weirton-Steubenville, WV",3,126.0,1,40.4,-80.58,West Virginia North Area
+1131,"Wenatchee, WA",1,1050.0,3,47.43,-120.31,Washington State Area
+1132,"Wenatchee, WA",2,368.0,1,47.61,-120.65,Washington State Area
+1133,"Wenatchee, WA",3,312.0,1,47.44,-120.32,Washington State Area
+1134,"Wheeling, WV",1,222.0,1,40.06,-80.58,West Virginia North Area
+1135,"Wheeling, WV",2,160.0,2,40.07,-80.72,West Virginia North Area
+1136,"Wheeling, WV",3,158.0,1,40.05,-80.72,West Virginia North Area
+1137,"Wichita Falls, TX",1,836.0,5,33.85,-98.5,Southwest Wichita Falls
+1138,"Wichita Falls, TX",2,486.0,3,33.86,-98.52,Southwest Wichita Falls
+1139,"Wichita Falls, TX",3,394.0,3,33.96,-98.52,North Wichita Falls
+1140,"Wichita, KS",1,1594.0,8,37.69,-97.34,Downtown Wichita
+1141,"Wichita, KS",2,1514.0,6,37.67,-97.23,Southeast Wichita
+1142,"Wichita, KS",3,1037.0,3,37.72,-97.25,East Wichita
+1143,"Williamsport, PA",1,450.0,2,41.24,-77.01,Pennsylvania Central Area
+1144,"Williamsport, PA",2,218.0,3,41.24,-77.02,Pennsylvania Central Area
+1145,"Williamsport, PA",3,200.0,1,41.24,-77.06,Pennsylvania Central Area
+1146,"Wilmington, NC",1,1231.0,4,34.16,-77.91,Echo Farms
+1147,"Wilmington, NC",2,1195.0,4,34.23,-77.87,Outer W New Hanover County
+1148,"Wilmington, NC",3,848.0,3,34.25,-77.88,Outer W New Hanover County
+1149,"Winchester, VA",1,880.0,4,39.17,-78.18,Winchester County
+1150,"Winchester, VA",2,788.0,5,39.16,-78.18,Winchester County
+1151,"Winchester, VA",3,511.0,2,39.14,-78.16,Frederick County VA
+1152,"Winston-Salem, NC",1,1211.0,8,36.1,-80.24,Innovation Quarter
+1153,"Winston-Salem, NC",2,1159.0,2,36.07,-80.33,S Downtown Winston-Salem
+1154,"Winston-Salem, NC",3,1021.0,6,36.1,-80.25,Crystal Towers-East
+1155,"Worcester, MA",1,1972.0,11,42.26,-71.8,Green Island
+1156,"Worcester, MA",2,1311.0,2,42.3,-71.78,North Lincoln Street
+1157,"Worcester, MA",3,1130.0,7,42.27,-71.8,Downtown Worcester
+1158,"Yakima, WA",1,716.0,1,46.6,-120.46,East Yakima County
+1159,"Yakima, WA",2,426.0,1,46.59,-120.6,Yakima
+1160,"Yakima, WA",3,330.0,1,46.58,-120.58,Yakima
+1161,"York, PA",1,966.0,2,39.95,-76.65,Outer Stonybrook/East York County
+1162,"York, PA",2,672.0,4,39.98,-76.66,East York
+1163,"York, PA",3,594.0,2,39.94,-76.69,Tyler Run-Queens Gate
+1164,"Youngstown, OH",1,1058.0,2,41.09,-80.74,North Outer Austintown/Boardman
+1165,"Youngstown, OH",2,795.0,2,41.09,-80.75,North Outer Austintown/Boardman
+1166,"Youngstown, OH",3,548.0,1,41.07,-80.71,Kirkmere
+1167,"Yuba City, CA",1,488.0,6,39.15,-121.64,Sutter County
+1168,"Yuba City, CA",2,301.0,4,39.11,-121.62,Sutter County
+1169,"Yuba City, CA",3,274.0,3,39.15,-121.59,Yuba County
+1170,"Yuma, AZ",1,561.0,3,32.68,-114.63,Downtown Yuma
+1171,"Yuma, AZ",2,540.0,2,32.7,-114.65,Downtown Yuma
+1172,"Yuma, AZ",3,480.0,2,32.68,-114.65,Downtown Yuma

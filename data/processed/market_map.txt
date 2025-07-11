@@ -1,0 +1,17 @@
+{
+    'Atlanta': 'Atlanta, GA',
+    'Austin': 'Austin, TX',
+    'Charlotte': 'Charlotte, NC',
+    'Columbus': 'Columbus, OH',
+    'DC': 'Washington, DC',
+    'Dallas': 'Dallas-Fort Worth, TX',
+    'Denver': 'Denver, CO',
+    'Houston': 'Houston, TX',
+    'Nashville': 'Nashville, TN',
+    'Orlando': 'Orlando, FL',
+    'Phoenix': 'Phoenix, AZ',
+    'Raleigh': 'Raleigh, NC',
+    'South Florida': 'Miami, FL',
+    'Tampa': 'Tampa, FL',
+    'Tucson': 'Tucson, AZ'
+}

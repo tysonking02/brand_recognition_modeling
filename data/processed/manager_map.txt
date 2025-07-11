@@ -1,0 +1,10 @@
+{
+    'amli': 'AMLI',
+    'avalon': 'AvalonBay',
+    'camden': 'Camden',
+    'cortland': 'Cortland',
+    'greystar': 'Greystar',
+    'maa': 'MAA',
+    'bell': 'Bell',
+    'windsor': 'GID'
+}

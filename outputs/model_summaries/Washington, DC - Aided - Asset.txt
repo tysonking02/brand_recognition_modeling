@@ -1,0 +1,43 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      aided_recognition   R-squared:                       0.640
+Model:                            OLS   Adj. R-squared:                  0.374
+Method:                 Least Squares   F-statistic:                     2.405
+Date:                Thu, 10 Jul 2025   Prob (F-statistic):             0.0256
+Time:                        17:31:03   Log-Likelihood:                 60.836
+No. Observations:                  41   AIC:                            -85.67
+Df Residuals:                      23   BIC:                            -54.83
+Df Model:                          17                                         
+Covariance Type:            nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+const                               0.5354      0.592      0.904      0.375      -0.689       1.760
+manager_brand                       0.0454      0.041      1.112      0.278      -0.039       0.130
+unit_count                          0.0001    8.6e-05      1.224      0.233   -7.27e-05       0.000
+miles_from_city_center             -0.0298      0.021     -1.413      0.171      -0.074       0.014
+PropertyQuality                    -0.8549      0.323     -2.645      0.014      -1.523      -0.186
+BuildingAge                        -0.0003      0.001     -0.369      0.715      -0.002       0.001
+PercentBachelors                   -0.0008      0.002     -0.449      0.658      -0.005       0.003
+MedianAge                           0.0126      0.015      0.827      0.417      -0.019       0.044
+PercentRenters                      0.0049      0.004      1.150      0.262      -0.004       0.014
+LandArea                        -3.257e-08   3.96e-08     -0.822      0.420   -1.15e-07    4.94e-08
+PopDensity                         -5.7459      2.967     -1.936      0.065     -11.884       0.393
+UndergradPerc                       0.4285      0.324      1.324      0.198      -0.241       1.098
+GraduatePerc                       -0.1035      0.523     -0.198      0.845      -1.185       0.977
+MastersPerc                         0.6043      0.755      0.801      0.432      -0.957       2.166
+has_bldg_gated_community_access    -0.0837      0.036     -2.318      0.030      -0.158      -0.009
+rating                             -0.0642      0.049     -1.323      0.199      -0.165       0.036
+area_type_Suburban                  0.5892      0.595      0.990      0.333      -0.643       1.821
+area_type_Urban                    -0.0264      0.027     -0.962      0.346      -0.083       0.030
+==============================================================================
+Omnibus:                       19.929   Durbin-Watson:                   1.658
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.557
+Skew:                          -1.294   Prob(JB):                     3.13e-08
+Kurtosis:                       6.678   Cond. No.                     2.62e+08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.62e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.

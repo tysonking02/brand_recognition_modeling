@@ -139,7 +139,7 @@ manager_logo_map = {
 }
 
 with st.sidebar.expander(label='Heatmap Settings'):
-    heatmap_radius = st.slider("Radius", min_value=5, max_value=50, value=15, step=1)
+    heatmap_radius = st.slider("Radius", min_value=5, max_value=50, value=20, step=1)
     heatmap_blur = st.slider("Blur", min_value=1, max_value=30, value=10, step=1)
 
     bin_side_length = st.slider(

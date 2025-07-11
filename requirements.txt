@@ -4,6 +4,5 @@ statsmodels
 scikit-learn
 matplotlib
 datetime
-pickle
 logging
 time

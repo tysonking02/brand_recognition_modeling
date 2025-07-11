@@ -6,3 +6,4 @@ matplotlib
 datetime
 logging
 streamlit
+leafmap

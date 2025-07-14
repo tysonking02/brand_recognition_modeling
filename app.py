@@ -505,7 +505,9 @@ m.add_circle_markers_from_xy(
 
 filtered['impact'] = (filtered['impact'] * 100).round(2)
 
-gb = GridOptionsBuilder.from_dataframe(filtered[['property', 'manager', 'impact']])
+styled_df = filtered[['property', 'manager', 'impact']].sort_values('impact', ascending=False).rename(columns={'property': 'Property', 'manager': 'Manager', 'impact': 'Brand Awareness Contribution'})
+
+gb = GridOptionsBuilder.from_dataframe(styled_df)
 gb.configure_selection(
     selection_mode="single",    
     use_checkbox=True 
@@ -517,7 +519,7 @@ grid_options = gb.build()
 st.markdown("<br>", unsafe_allow_html=True)
 
 grid_response = AgGrid(
-    filtered[['property', 'manager', 'impact']].sort_values('impact', ascending=False),
+    styled_df,
     gridOptions=grid_options,
     update_mode=GridUpdateMode.SELECTION_CHANGED,
     allow_unsafe_jscode=True,

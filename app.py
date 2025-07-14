@@ -213,6 +213,13 @@ hotspots[''] = (
     '# Assets: ' + hotspots['# Assets'].astype(str)
 )
 
+valid_pairs = recognition_df[['manager', 'market']].drop_duplicates()
+
+filtered = (
+    filtered
+    .merge(valid_pairs, on=['manager', 'market'], how='inner')
+)
+
 managers = sorted(filtered['manager'].unique())
 
 default_manager = ['Cortland'] if 'Cortland' in managers else [managers[0]]

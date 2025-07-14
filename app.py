@@ -531,7 +531,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 selected_rows = grid_response["selected_rows"]
 if selected_rows is not None:
-    selected_asset = selected_rows["property"]
+    selected_asset = selected_rows["Property"]
     row = filtered[filtered['property'] == selected_asset[0]]
 
     m.set_center(lat=row['latitude'].values[0], lon=row['longitude'].values[0], zoom=15)

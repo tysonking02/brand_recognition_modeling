@@ -111,28 +111,8 @@ manager_logo_map = {
     'Mill Creek': 'https://mma.prnewswire.com/media/224987/mill_creek_logo.jpg?p=facebook'
 }
 
-with st.sidebar.expander(label='Heatmap Settings'):
-    heatmap_radius = st.slider("Radius", min_value=5, max_value=50, value=20, step=1)
-    heatmap_blur = st.slider("Blur", min_value=1, max_value=30, value=10, step=1)
-
-    bin_side_length = st.slider(
-        "City Center Bin Size (latitude/longitude)", 
-        min_value=0.005, 
-        max_value=0.020, 
-        value=0.01, 
-        step=0.001,
-        format="%.3f",
-        help="Controls the size of city center detection bins"
-    )
-
-    num_city_centers = st.slider(
-        "Number of City Centers",
-        min_value=1,
-        max_value=10,
-        value=3,
-        step=1,
-        help="Controls the number of city centers to calculate"
-    )
+bin_side_length = 0.01
+num_city_centers = 5
 
 # Calculate city centers with dynamic bin size
 df['lat'] = round((df['latitude'] / bin_side_length).round() * bin_side_length, 3)
@@ -242,6 +222,31 @@ manager_select = st.sidebar.multiselect("Management", managers, default=default_
 if len(manager_select) == 0:
     st.warning("Please select at least one management company to proceed.")
     st.stop()
+
+default_colors = {
+    'AMLI': '#a7292e',
+    'AvalonBay': '#4a2e89',
+    'Bell': '#31999b',
+    'Camden': '#84be30',
+    'Cortland': '#284692',
+    'FPA': '#f59128',
+    'Fairfield': '#a7632d',
+    'GID': '#222707',
+    'Greystar': '#102045',
+    'MAA': '#e6752e',
+    'Mill Creek': '#7aaeb6'
+}
+
+manager_color_map = {}
+
+with st.sidebar.expander(label='Heatmap Settings', expanded=True):
+    heatmap_radius = st.slider("Radius", min_value=5, max_value=50, value=20, step=1)
+    heatmap_blur = st.slider("Blur", min_value=1, max_value=30, value=10, step=1)
+
+    st.markdown("Customize brand colors:")
+    for mgr in manager_select:
+        default = default_colors.get(mgr, '#888888')
+        manager_color_map[mgr] = st.color_picker(f"{mgr} Color", value=default)
 
 filtered = filtered[filtered['manager'].isin(manager_select)]
 filtered['impact'] = 0
@@ -376,20 +381,6 @@ st.markdown(html_table, unsafe_allow_html=True)
 
 filtered['value'] = filtered['impact'] * 100
 
-manager_color_map = {
-    'AMLI': '#a7292e',
-    'AvalonBay': '#4a2e89',
-    'Bell': '#31999b',
-    'Camden': '#84be30',
-    'Cortland': '#284692',
-    'FPA': '#f59128',
-    'Fairfield': '#a7632d',
-    'GID': '#222707',
-    'Greystar': '#102045',
-    'MAA': '#e6752e',
-    'Mill Creek': '#7aaeb6'
-}
-
 def create_gradient(base_hex):
     base_rgb = mcolors.to_rgb(base_hex)
     gradient = {
@@ -505,19 +496,6 @@ m.add_circle_markers_from_xy(
 )
 
 m.to_streamlit(height=700)
-
-st.subheader("Heatmap Legend")
-
-for manager in manager_select:
-    if manager in manager_color_map:
-        color = manager_color_map[manager]
-        st.markdown(
-            f'<div style="display:flex;align-items:center;margin-bottom:4px;">'
-            f'<div style="width:16px;height:16px;background-color:{color};border-radius:3px;margin-right:8px;"></div>'
-            f'<span style="font-weight:500;">{manager}</span>'
-            f'</div>',
-            unsafe_allow_html=True
-        )
 
 filtered['impact'] = (filtered['impact'] * 100).round(2)
 

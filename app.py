@@ -15,13 +15,14 @@ from datetime import datetime
 def clean_df(df):
     return df.loc[:, ~df.columns.str.startswith('Unnamed')]
 
-def assemble_df(branded_sites):
-    distances_from_city_center = clean_df(pd.read_csv('data/processed/distances_from_city_center.csv'))
-    hellodata_features = clean_df(pd.read_csv('data/processed/hellodata_features.csv'))
-    brand_recognition = clean_df(pd.read_csv('data/processed/brand_recognition.csv'))
-    google_reviews = clean_df(pd.read_csv('data/processed/google_reviews.csv', usecols=['property_id', 'rating']))
-    costar_export = clean_df(pd.read_csv('data/raw/costar_export.csv'))
+distances_from_city_center = clean_df(pd.read_csv('data/processed/distances_from_city_center.csv'))
+hellodata_features = clean_df(pd.read_csv('data/processed/hellodata_features.csv'))
+brand_recognition = clean_df(pd.read_csv('data/processed/brand_recognition.csv'))
+google_reviews = clean_df(pd.read_csv('data/processed/google_reviews.csv', usecols=['property_id', 'rating']))
+costar_export = clean_df(pd.read_csv('data/raw/costar_export.csv'))
 
+
+def assemble_df(branded_sites):
     full_data = pd.merge(branded_sites, distances_from_city_center, on='property_id', how='inner')
 
     full_data = pd.merge(full_data, hellodata_features, left_on='property_id', right_on='costar_id', how='inner').drop(columns=['costar_id'])

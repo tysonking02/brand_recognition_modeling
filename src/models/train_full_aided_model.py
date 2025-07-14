@@ -11,8 +11,8 @@ model_name = "All Markets - Aided - Manager"
 final = pd.read_csv('data/processed/manager_metrics.csv')
 
 x = final[['unit_count', 'asset_count', 'count_within_1', 'count_within_5', 'count_within_10', 'count_within_20', 
-           'BuildingAge', 'GraduatePerc', 'BachelorsPerc', 'MastersPerc', 'MedianAge', 'MedianHHI', 'NumberStories',
-           'manager_brand', 'miles_from_city_center', 'rating', 'PropertyQuality']]
+           'building_age', 'years_since_reno', 'hs_diploma_perc', 'bachelors_perc', 'masters_perc', 'number_stories',
+           'manager_brand', 'miles_from_city_center', 'rating', 'property_quality']]
 
 # x = final.drop(columns=['aided_recognition', 'unaided_recognition', 'market', 'manager'])
 y = final['aided_recognition']

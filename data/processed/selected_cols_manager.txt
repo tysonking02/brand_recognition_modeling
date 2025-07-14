@@ -1,3 +1,4 @@
-count_within_10_mile
-LandArea
+miles_from_city_center
+land_area
+bachelors_perc
 manager_brand

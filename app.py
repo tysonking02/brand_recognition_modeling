@@ -1,5 +1,3 @@
-# streamlit run src/visualization/app.py
-
 import streamlit as st
 import pandas as pd
 import leafmap.foliumap as leafmap
@@ -27,80 +25,28 @@ def assemble_df(costar_export):
 
     full_data = pd.merge(full_data, hellodata_features, left_on='property_id', right_on='costar_id', how='inner').drop(columns=['costar_id'])
 
+
     full_data = pd.merge(full_data, brand_recognition, on=['market', 'manager'], how='right')
     full_data.dropna(subset=['property_id'], inplace=True)
 
     full_data = pd.merge(full_data, google_reviews, on='property_id', how='left')
 
-    full_data = full_data[(full_data['IsAffordable'] == 0) & (full_data['IsLeaseUp'] == 0)].drop(columns=['IsAffordable', 'IsLeaseUp'])
+    full_data = full_data[(full_data['is_affordable'] == 0) & (full_data['is_lease_up'] == 0)].drop(columns=['is_affordable', 'is_lease_up'])
 
-    full_data['MedianHHI'] = full_data['MedianHHI'].replace('-', np.nan)
-    full_data['MedianHHI'] = pd.to_numeric(full_data['MedianHHI'], errors='coerce')
-
-    dummify_cols = ['area_type']
+    dummify_cols = ['area_type', 'style', 'building_class']
 
     full_data = pd.get_dummies(full_data, columns=dummify_cols)
 
-    bool_cols = ['manager_brand']
+    bool_cols = [col for col in full_data.columns if any(key in col for key in ['style', 'building_class', 'area_type', 'manager_brand'])]
 
     for col in bool_cols:
         full_data[col] = full_data[col].astype(int)
 
     full_data = full_data.drop(columns=['branded', 'property', 'owner', 'latitude', 'longitude', 'submarket', 'zip_code', 'closest_city_center', 'total_responses'])
 
-    cols_to_fill = [col for col in full_data.columns if col not in ['unaided_recognition', 'market', 'manager']]
+    numeric_cols = full_data.select_dtypes(include='number').columns
 
-    error_cols = []
-
-    for col in cols_to_fill:
-        full_data[col] = full_data[col].fillna(full_data[col].mean())
-
-    # Create distance bands as indicator columns
-    full_data['within_1'] = (full_data['miles_from_city_center'] <= 1).astype(int)
-    full_data['within_5'] = (full_data['miles_from_city_center'] <= 5).astype(int)
-    full_data['within_10'] = (full_data['miles_from_city_center'] <= 10).astype(int)
-    full_data['within_20'] = (full_data['miles_from_city_center'] <= 20).astype(int)
-
-    # Group by manager/market and count how many properties fall in each band
-    grouped_counts = (
-        full_data.groupby(['manager', 'market'])[['within_1', 'within_5', 'within_10', 'within_20']]
-        .sum()
-        .rename(columns={
-            'within_1': 'count_within_1',
-            'within_5': 'count_within_5',
-            'within_10': 'count_within_10',
-            'within_20': 'count_within_20',
-        })
-    )
-
-    # Compute log(count + 1) to model diminishing returns
-    for col in grouped_counts.columns:
-        grouped_counts[f'log_{col}'] = np.log1p(grouped_counts[col])
-
-    # Compute unit/asset counts
-    unit_asset_counts = (
-        full_data.groupby(['manager', 'market'])
-        .agg(
-            unit_count=('unit_count', 'sum'),
-            asset_count=('unit_count', 'count')
-        )
-    )
-
-    # Get remaining numeric features (excluding engineered columns)
-    excluded = [
-        'unit_count', 'distance_to_city_center',
-        'within_1', 'within_5', 'within_10', 'within_20'
-    ]
-    numeric_cols = full_data.select_dtypes(include='number').columns.difference(excluded)
-
-    # Get means of other numeric features
-    other_metrics = full_data.groupby(['manager', 'market'])[numeric_cols].mean()
-
-    # Combine all together
-    manager_metrics = (
-        pd.concat([unit_asset_counts, grouped_counts, other_metrics], axis=1)
-        .reset_index()
-    )
+    manager_metrics = full_data.groupby(['manager', 'market'])[numeric_cols].mean().reset_index()
 
     return full_data, manager_metrics
 
@@ -260,13 +206,15 @@ hotspots[''] = (
     '# Assets: ' + hotspots['# Assets'].astype(str)
 )
 
-counts   = filtered['manager'].value_counts()
-eligible = counts[counts >= 5].index.tolist()
-managers = sorted(eligible)
+managers = sorted(filtered['manager'].unique())
 
 default_manager = ['Cortland'] if 'Cortland' in managers else [managers[0]]
 
 manager_select = st.sidebar.multiselect("Management", managers, default=default_manager)
+
+if len(manager_select) == 0:
+    st.warning("Please select at least one management company to proceed.")
+    st.stop()
 
 filtered = filtered[filtered['manager'].isin(manager_select)]
 filtered['impact'] = 0
@@ -321,8 +269,7 @@ for manager in filtered['manager'].unique():
         adj_impact = (actual_rec / overall_pred) * impact
         filtered.loc[filtered['property_id'] == prop_id, 'impact'] = round(adj_impact, 4)
 
-filtered = pd.merge(filtered, important_feats[['property_id', 'miles_from_city_center', 'NumberStories', 'PropertyQuality', 'BuildingAge',
-                                            'MedianHHI', 'BachelorsPerc', 'MastersPerc', 'rating']], on=['property_id'], how='left')
+filtered = pd.merge(filtered, important_feats.drop(columns=['manager', 'market', 'lat', 'lon', 'impact', 'unit_count', 'manager_brand']), on=['property_id'], how='left')
 
 
 data = []
@@ -497,11 +444,11 @@ def format_popup(row):
         f"<b>Impact:</b> {row['impact']:.1%}<br>"
         f"<b>Miles from City Center:</b> {row['miles_from_city_center']:.2f}<br>"
         f"<b>Manager Branded:</b> {row['manager_brand']}<br>"
-        f"<b>Stories:</b> {int(row['NumberStories']) if not pd.isnull(row['NumberStories']) else 'N/A'}<br>"
+        f"<b>Stories:</b> {int(row['number_stories']) if not pd.isnull(row['number_stories']) else 'N/A'}<br>"
+        f"<b>Building Age:</b> {row['building_age']:.0f}<br>"
+        f"<b>Years Since Reno:</b> {int(row['years_since_reno']) if not pd.isnull(row['years_since_reno']) else 'N/A'}<br>"
         f"<b>Unit Count:</b> {row['unit_count']:.0f}<br>"
-        f"<b>HelloData Quality Score:</b> {row['PropertyQuality']:.3f}<br>"
-        f"<b>% Bachelors:</b> {row['BachelorsPerc'] * 100:.1f}%<br>"
-        f"<b>% Masters:</b> {row['MastersPerc'] * 100:.1f}%"
+        f"<b>HelloData Quality Score:</b> {row['property_quality']:.3f}<br>"
     )
 
 # Apply to filtered
@@ -534,4 +481,4 @@ for manager in manager_select:
             unsafe_allow_html=True
         )
 
-st.write(filtered[['property', 'manager', 'impact']])
+st.write(filtered[['property', 'manager', 'impact']].rename(columns={'property': 'Asset', 'manager': 'Management', 'impact': 'Brand Awareness Contribution'}).sort_values('Brand Awareness Contribution', ascending=False))

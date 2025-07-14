@@ -3,14 +3,15 @@ import sys
 
 # List of script paths to run
 scripts = [
-    'src/data/fetch_hellodata_features.py',
+    # 'src/data/fetch_hellodata_features.py',
+    'src/data/aggregate_hellodata_features.py',
     'src/data/get_location_features.py',
     'src/data/process_survey_data.py',
     # 'src/data/fetch_google_reviews.py',
     'src/data/assemble_final_df.py',
     'src/features/select_features.py',
     'src/models/train_full_aided_model.py',
-    'src/models/train_market_aided_model.py'
+    # 'src/models/train_market_aided_model.py'
 ]
 
 for script in scripts:

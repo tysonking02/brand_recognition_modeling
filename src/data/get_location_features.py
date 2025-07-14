@@ -24,7 +24,7 @@ tile_density = (
 city_centers = (
     tile_density.sort_values(['market', 'total_units'], ascending=[True, False])
     .groupby('market')
-    .head(3)
+    .head(5)
     .copy()
 )
 

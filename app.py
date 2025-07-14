@@ -268,7 +268,12 @@ for manager in filtered['manager'].unique():
     marginal_impacts = []
     property_ids = []
 
-    for _, asset in cur_manager_filtered.iterrows():
+    progress_bar = st.progress(0)
+    total = len(cur_manager_filtered)
+    status = st.empty()
+
+    for i, (_, asset) in enumerate(cur_manager_filtered.iterrows()):   
+        status.text(f"Processing {manager}...")     
         property_ids.append(asset['property_id'])
 
         without_asset_df = cur_manager_filtered[cur_manager_filtered['property_id'] != asset['property_id']]
@@ -280,6 +285,11 @@ for manager in filtered['manager'].unique():
         pred_without = model.predict(train_data).mean()
         impact = overall_pred - pred_without
         marginal_impacts.append(impact)
+
+        progress_bar.progress((i + 1) / total)
+    
+    progress_bar.empty()
+    status.empty()
 
     marginal_impacts = np.array(marginal_impacts)
 

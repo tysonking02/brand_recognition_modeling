@@ -1,0 +1,45 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      aided_recognition   R-squared:                       0.595
+Model:                            OLS   Adj. R-squared:                  0.446
+Method:                 Least Squares   F-statistic:                     4.001
+Date:                Mon, 14 Jul 2025   Prob (F-statistic):           5.74e-05
+Time:                        10:58:08   Log-Likelihood:                 80.610
+No. Observations:                  68   AIC:                            -123.2
+Df Residuals:                      49   BIC:                            -81.05
+Df Model:                          18                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                      0.2323      0.011     21.989      0.000       0.211       0.254
+unit_count                -0.0246      0.013     -1.911      0.062      -0.051       0.001
+miles_from_city_center    -0.0301      0.013     -2.372      0.022      -0.056      -0.005
+property_quality           0.0243      0.014      1.685      0.098      -0.005       0.053
+building_age               0.0428      0.019      2.269      0.028       0.005       0.081
+years_since_reno           0.0060      0.015      0.405      0.687      -0.024       0.036
+total_pop                  0.0219      0.015      1.445      0.155      -0.009       0.052
+land_area                 -0.0149      0.017     -0.866      0.391      -0.049       0.020
+pop_density               -0.0402      0.017     -2.296      0.026      -0.075      -0.005
+unemployed_perc            0.0098      0.015      0.664      0.510      -0.020       0.039
+bachelors_perc             0.0178      0.013      1.372      0.176      -0.008       0.044
+star_rating               -0.0055      0.016     -0.351      0.727      -0.037       0.026
+rating                     0.0039      0.013      0.298      0.767      -0.022       0.030
+area_type_Rural           -0.0002      0.016     -0.014      0.989      -0.032       0.032
+area_type_Urban            0.0397      0.031      1.261      0.213      -0.024       0.103
+style_Garden               0.0075      0.029      0.260      0.796      -0.051       0.066
+style_Hi-Rise              0.0460      0.021      2.216      0.031       0.004       0.088
+style_Low-Rise            -0.0095      0.027     -0.351      0.727      -0.064       0.045
+manager_brand              0.0296      0.018      1.691      0.097      -0.006       0.065
+==============================================================================
+Omnibus:                        0.125   Durbin-Watson:                   2.215
+Prob(Omnibus):                  0.939   Jarque-Bera (JB):                0.034
+Skew:                           0.051   Prob(JB):                        0.983
+Kurtosis:                       2.961   Cond. No.                         8.05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Test R^2: 0.5122
+Test RMSE: 0.0057

@@ -3,9 +3,9 @@ import pandas as pd
 
 cols = [
     'costar_id', 
-    'is_affordable', 'is_lease_up', 'number_stories', 'property_quality', 'building_age', 'years_since_reno',
+    'is_affordable', 'is_lease_up', 'property_quality',
     'total_pop', 'land_area', 'pop_density', 'unemployed_perc', 'hs_diploma_perc', 
-    'bachelors_perc', 'masters_perc', 'building_class', 'star_rating', 'style'
+    'bachelors_perc', 'masters_perc'
 ]
 
 

@@ -10,9 +10,6 @@ final = final.loc[:, ~final.columns.str.startswith('Unnamed')]
 
 x = final.drop(columns=['market', 'manager', 'aided_recognition', 'unaided_recognition'])
 
-nan_cols = x.columns[x.isna().any()]
-print("Columns with NaNs:", nan_cols.tolist())
-
 y = final['aided_recognition']
 
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=100)
@@ -21,8 +18,8 @@ scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 
 elastic_net = ElasticNetCV(
-    alphas=np.logspace(-2, 1, 100),
-    l1_ratio=[0.05, .1, .3, .5, .7, .9, .95, .99, 1],  # 1 = Lasso, 0 = Ridge
+    alphas=np.logspace(-1, 1, 100),
+    l1_ratio=[.1, .3, .5, .7, .9, .95, .99, 1],  # 1 = Lasso, 0 = Ridge
     cv=5,
     random_state=0,
     max_iter=10000

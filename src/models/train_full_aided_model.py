@@ -7,14 +7,15 @@ from sklearn.metrics import r2_score, mean_squared_error
 
 model_name = "All Markets - Aided - Manager"
 
+with open('data/processed/selected_cols_manager.txt', 'r') as f:
+    cols = [line.strip() for line in f if line.strip()]
+
 # Load and prepare data
 final = pd.read_csv('data/processed/manager_metrics.csv')
 
-x = final[['unit_count', 'asset_count', 'count_within_1', 'count_within_5', 'count_within_10', 'count_within_20', 
-           'building_age', 'years_since_reno', 'hs_diploma_perc', 'bachelors_perc', 'masters_perc', 'number_stories',
-           'manager_brand', 'miles_from_city_center', 'rating', 'property_quality']]
-
-# x = final.drop(columns=['aided_recognition', 'unaided_recognition', 'market', 'manager'])
+x = final[['miles_from_city_center', 'manager_brand', 'property_quality', 'pop_density', 'building_age', 'years_since_reno',
+           'years_since_first_acquisition', 'style_Hi-Rise', 'unit_count']]
+# x = final[cols]
 y = final['aided_recognition']
 
 # Split data

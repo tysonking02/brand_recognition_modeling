@@ -10,43 +10,75 @@ import matplotlib.colors as mcolors
 import pickle
 import numpy as np
 import statsmodels.api as sm
+from datetime import datetime
 
 def clean_df(df):
     return df.loc[:, ~df.columns.str.startswith('Unnamed')]
 
-def assemble_df(costar_export):
-
+def assemble_df(branded_sites):
     distances_from_city_center = clean_df(pd.read_csv('data/processed/distances_from_city_center.csv'))
     hellodata_features = clean_df(pd.read_csv('data/processed/hellodata_features.csv'))
     brand_recognition = clean_df(pd.read_csv('data/processed/brand_recognition.csv'))
     google_reviews = clean_df(pd.read_csv('data/processed/google_reviews.csv', usecols=['property_id', 'rating']))
+    costar_export = clean_df(pd.read_csv('data/raw/costar_export.csv'))
 
-    full_data = pd.merge(costar_export, distances_from_city_center, on='property_id', how='inner')
+    print(f'Branded Sites Length: {len(branded_sites)}')
+
+    full_data = pd.merge(branded_sites, distances_from_city_center, on='property_id', how='inner')
+    print(f'Length Post Location Merge: {len(full_data)}')
 
     full_data = pd.merge(full_data, hellodata_features, left_on='property_id', right_on='costar_id', how='inner').drop(columns=['costar_id'])
-
+    print(f'Length Post HelloData Merge: {len(full_data)}')
 
     full_data = pd.merge(full_data, brand_recognition, on=['market', 'manager'], how='right')
     full_data.dropna(subset=['property_id'], inplace=True)
+    print(f'Length Post Survey Data Merge: {len(full_data)}')
 
     full_data = pd.merge(full_data, google_reviews, on='property_id', how='left')
 
-    full_data = full_data[(full_data['is_affordable'] == 0) & (full_data['is_lease_up'] == 0)].drop(columns=['is_affordable', 'is_lease_up'])
+    full_data = pd.merge(full_data, costar_export.drop(columns=['unit_count', 'latitude', 'longitude', 'zip_code']), on='property_id', how='left')
 
+    # Filter out lease-up and affordable properties
+    full_data = full_data[(full_data['is_affordable'] == 0) & (full_data['is_lease_up'] == 0)]
+    full_data = full_data.drop(columns=['is_affordable', 'is_lease_up'])
+
+    # One-hot encode selected categorical columns
     dummify_cols = ['area_type', 'style', 'building_class']
-
     full_data = pd.get_dummies(full_data, columns=dummify_cols)
 
-    bool_cols = [col for col in full_data.columns if any(key in col for key in ['style', 'building_class', 'area_type', 'manager_brand'])]
+    # Convert all dummy cols to int
+    for col in full_data.columns:
+        if any(prefix in col for prefix in ['style_', 'building_class_', 'area_type_']):
+            full_data[col] = full_data[col].astype(int)
 
-    for col in bool_cols:
-        full_data[col] = full_data[col].astype(int)
+    full_data['building_age'] = (datetime.now().year - full_data['year_built']).round()
 
-    full_data = full_data.drop(columns=['branded', 'property', 'owner', 'latitude', 'longitude', 'submarket', 'zip_code', 'closest_city_center', 'total_responses'])
+    full_data['year_renovated'] = full_data['year_renovated'].fillna(full_data['year_built'])
+    full_data['years_since_reno'] = (datetime.now().year - full_data['year_renovated']).round()
 
-    numeric_cols = full_data.select_dtypes(include='number').columns
+    full_data['years_since_acquisition'] = (datetime.now().year - full_data['year_acquired']).round()
 
-    manager_metrics = full_data.groupby(['manager', 'market'])[numeric_cols].mean().reset_index()
+    full_data['years_since_first_acquisition'] = (
+        full_data['years_since_acquisition'] -
+        full_data.groupby(['manager', 'market'])['years_since_acquisition'].transform('min')
+    )
+
+    # Drop irrelevant columns
+    full_data = full_data.drop(columns=[
+        'branded', 'property', 'owner', 'latitude', 'longitude',
+        'submarket', 'zip_code', 'closest_city_center', 'total_responses',
+        'year_built', 'year_renovated', 'year_acquired'
+    ])
+
+    # Separate columns to aggregate differently
+    dummy_cols = [col for col in full_data.columns if any(prefix in col for prefix in ['style_', 'building_class_', 'area_type_', 'unit_count'])]
+    numeric_cols = [col for col in full_data.select_dtypes(include='number').columns if col not in dummy_cols]
+
+    # Group and aggregate
+    means = full_data.groupby(['manager', 'market'])[numeric_cols + ['manager_brand']].mean()
+    counts = full_data.groupby(['manager', 'market'])[dummy_cols].sum()
+
+    manager_metrics = pd.concat([means, counts], axis=1).reset_index()
 
     return full_data, manager_metrics
 
@@ -444,10 +476,11 @@ def format_popup(row):
         f"<b>Impact:</b> {row['impact']:.1%}<br>"
         f"<b>Miles from City Center:</b> {row['miles_from_city_center']:.2f}<br>"
         f"<b>Manager Branded:</b> {row['manager_brand']}<br>"
-        f"<b>Stories:</b> {int(row['number_stories']) if not pd.isnull(row['number_stories']) else 'N/A'}<br>"
+        f"<b>Stories:</b> {int(row['number_of_stories']) if not pd.isnull(row['number_of_stories']) else 'N/A'}<br>"
+        f"<b>Unit Count:</b> {row['unit_count']:.0f}<br>"
         f"<b>Building Age:</b> {row['building_age']:.0f}<br>"
         f"<b>Years Since Reno:</b> {int(row['years_since_reno']) if not pd.isnull(row['years_since_reno']) else 'N/A'}<br>"
-        f"<b>Unit Count:</b> {row['unit_count']:.0f}<br>"
+        f"<b>Years Since Acquisition:</b> {int(row['years_since_acquisition']) if not pd.isnull(row['years_since_acquisition']) else 'N/A'}<br>"
         f"<b>HelloData Quality Score:</b> {row['property_quality']:.3f}<br>"
     )
 
@@ -481,4 +514,27 @@ for manager in manager_select:
             unsafe_allow_html=True
         )
 
-st.write(filtered[['property', 'manager', 'impact']].rename(columns={'property': 'Asset', 'manager': 'Management', 'impact': 'Brand Awareness Contribution'}).sort_values('Brand Awareness Contribution', ascending=False))
+filtered['impact'] = (filtered['impact'] * 100).round(2)
+
+styled_df = (
+    filtered[['property', 'manager', 'impact']]
+    .rename(columns={
+        'property': 'Asset',
+        'manager': 'Management',
+        'impact': 'Brand Awareness Contribution'
+    })
+    .sort_values('Brand Awareness Contribution', ascending=False)
+)
+
+def color_text_by_manager(row):
+    manager = row['Management']
+    color = manager_color_map.get(manager, '#000000') 
+    return [f'color: {color}', f'color: {color}', '']
+
+st.write(
+    styled_df
+    .style
+    .apply(color_text_by_manager, axis=1)
+    .format({'Brand Awareness Contribution': '{:.2f}%'})
+)
+

@@ -22,23 +22,17 @@ def assemble_df(branded_sites):
     google_reviews = clean_df(pd.read_csv('data/processed/google_reviews.csv', usecols=['property_id', 'rating']))
     costar_export = clean_df(pd.read_csv('data/raw/costar_export.csv'))
 
-    print(f'Branded Sites Length: {len(branded_sites)}')
-
     full_data = pd.merge(branded_sites, distances_from_city_center, on='property_id', how='inner')
-    print(f'Length Post Location Merge: {len(full_data)}')
 
     full_data = pd.merge(full_data, hellodata_features, left_on='property_id', right_on='costar_id', how='inner').drop(columns=['costar_id'])
-    print(f'Length Post HelloData Merge: {len(full_data)}')
 
     full_data = pd.merge(full_data, brand_recognition, on=['market', 'manager'], how='right')
     full_data.dropna(subset=['property_id'], inplace=True)
-    print(f'Length Post Survey Data Merge: {len(full_data)}')
 
     full_data = pd.merge(full_data, google_reviews, on='property_id', how='left')
 
     full_data = pd.merge(full_data, costar_export.drop(columns=['unit_count', 'latitude', 'longitude', 'zip_code']), on='property_id', how='left')
 
-    # Filter out lease-up and affordable properties
     full_data = full_data[(full_data['is_affordable'] == 0) & (full_data['is_lease_up'] == 0)]
     full_data = full_data.drop(columns=['is_affordable', 'is_lease_up'])
 
@@ -201,7 +195,7 @@ recognition_df = pd.read_csv('data/processed/brand_recognition.csv')
 
 # only markets with 50+ properties
 counts = filtered['market'].value_counts()
-eligible_markets = counts[counts >= 50].index.tolist()
+eligible_markets = counts[(counts >= 50) & (counts.index.isin(recognition_df['market']))].index.tolist()
 markets = ['All'] + sorted(eligible_markets)
 
 atl_i = markets.index("Atlanta, GA")

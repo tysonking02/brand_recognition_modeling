@@ -11,6 +11,7 @@ import pickle
 import numpy as np
 import statsmodels.api as sm
 from datetime import datetime
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 
 def clean_df(df):
     return df.loc[:, ~df.columns.str.startswith('Unnamed')]
@@ -186,7 +187,7 @@ market = st.sidebar.selectbox("Market", markets, index=atl_i)
 filtered = filtered[filtered['market'] == market]
 center_lat = filtered['latitude'].mean()
 center_lon = filtered['longitude'].mean()
-zoom = 8
+zoom = 10
 
 hotspots = top_tiles[top_tiles['market'] == market]
 
@@ -399,7 +400,7 @@ def create_gradient(base_hex):
     return gradient
 
 # Create map
-m = leafmap.Map(center=[center_lat, center_lon], zoom=zoom)
+m = leafmap.Map()
 m.add_basemap("CartoDB.Positron")
 
 for manager in manager_select:
@@ -502,29 +503,40 @@ m.add_circle_markers_from_xy(
     show=True
 )
 
-m.to_streamlit(height=700)
-
 filtered['impact'] = (filtered['impact'] * 100).round(2)
 
-styled_df = (
-    filtered[['property', 'manager', 'impact']]
-    .rename(columns={
-        'property': 'Asset',
-        'manager': 'Management',
-        'impact': 'Brand Awareness Contribution'
-    })
-    .sort_values('Brand Awareness Contribution', ascending=False)
+gb = GridOptionsBuilder.from_dataframe(filtered[['property', 'manager', 'impact']])
+gb.configure_selection(
+    selection_mode="single",    
+    use_checkbox=True 
 )
 
-def color_text_by_manager(row):
-    manager = row['Management']
-    color = manager_color_map.get(manager, '#000000') 
-    return [f'color: {color}', f'color: {color}', '']
+gb.configure_default_column(filter=True)
+grid_options = gb.build()
 
-st.write(
-    styled_df
-    .style
-    .apply(color_text_by_manager, axis=1)
-    .format({'Brand Awareness Contribution': '{:.2f}%'})
+st.markdown("<br>", unsafe_allow_html=True)
+
+grid_response = AgGrid(
+    filtered[['property', 'manager', 'impact']].sort_values('impact', ascending=False),
+    gridOptions=grid_options,
+    update_mode=GridUpdateMode.SELECTION_CHANGED,
+    allow_unsafe_jscode=True,
+    height=300,
+    theme="light" 
 )
 
+st.markdown("<br>", unsafe_allow_html=True)
+
+selected_rows = grid_response["selected_rows"]
+if selected_rows is not None:
+    selected_asset = selected_rows["property"]
+    row = filtered[filtered['property'] == selected_asset[0]]
+
+    m.set_center(lat=row['latitude'].values[0], lon=row['longitude'].values[0], zoom=15)
+
+    m.add_marker(location=(row['latitude'].values[0], row['longitude'].values[0]), 
+                 tooltip=row['Details'].values[0])
+else:
+    m.set_center(lat=center_lat, lon=center_lon, zoom=zoom)
+
+m.to_streamlit(height=700)

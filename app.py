@@ -240,7 +240,7 @@ default_colors = {
     'FPA': '#f59128',
     'Fairfield': '#a7632d',
     'GID': '#222707',
-    'Greystar': '#102045',
+    'Greystar': '#eac584',
     'MAA': '#e6752e',
     'Mill Creek': '#7aaeb6'
 }

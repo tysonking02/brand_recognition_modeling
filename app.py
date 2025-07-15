@@ -184,7 +184,7 @@ atl_i = markets.index("Atlanta, GA")
 
 market = st.sidebar.selectbox("Market", markets, index=atl_i)
 
-filtered = filtered[filtered['market'] == market]
+filtered = filtered[filtered['market'] == market] if market != 'All' else filtered
 center_lat = filtered['latitude'].mean()
 center_lon = filtered['longitude'].mean()
 zoom = 10
@@ -265,7 +265,11 @@ important_feats = pd.DataFrame()
 
 for manager in filtered['manager'].unique():
 
-    actual_rec = float(recognition_df.loc[(recognition_df['manager'] == manager) & (recognition_df['market'] == market), 'aided_recognition'])
+    if market == "All":
+        actual_rec = recognition_df[recognition_df['manager'] == manager]['aided_recognition'].mean()
+        zoom = 4
+    else:
+        actual_rec = float(recognition_df.loc[(recognition_df['manager'] == manager) & (recognition_df['market'] == market), 'aided_recognition'])
 
     cur_manager_filtered = filtered[filtered['manager'] == manager].copy()
 
@@ -349,9 +353,9 @@ for mgr in manager_select:
         manager_rows = recognition_df[recognition_df['manager'] == mgr]
 
         if not manager_rows.empty:
-            total_count = manager_rows['count'].sum()
-            aided_val = (manager_rows['aided_recognition'] * manager_rows['count']).sum() / total_count
-            unaided_val = (manager_rows['unaided_recognition'] * manager_rows['count']).sum() / total_count
+            total_count = manager_rows['total_responses'].sum()
+            aided_val = (manager_rows['aided_recognition'] * manager_rows['total_responses']).sum() / total_count
+            unaided_val = (manager_rows['unaided_recognition'] * manager_rows['total_responses']).sum() / total_count
             aided = f"{aided_val:.2%}"
             unaided = f"{unaided_val:.2%}"
         else:

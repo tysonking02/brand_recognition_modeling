@@ -1,0 +1,27 @@
+miles_from_city_center land_area
+miles_from_city_center star_rating
+miles_from_city_center land_area_sf
+total_pop bachelors_perc
+total_pop building_age
+total_pop style_Mid-Rise
+total_pop building_class_B
+land_area^2
+land_area star_rating
+pop_density^2
+pop_density years_since_acquisition
+unemployed_perc years_since_first_acquisition
+bachelors_perc building_age
+bachelors_perc years_since_reno
+bachelors_perc area_type_Urban
+masters_perc area_type_Urban
+number_of_stories style_Mid-Rise
+total_buildings is_university
+total_buildings unit_count
+total_buildings area_type_Urban
+total_buildings style_Garden
+total_buildings style_Hi-Rise
+total_buildings building_class_B
+is_university area_type_Urban
+years_since_acquisition style_Hi-Rise
+manager_brand^2
+manager_brand

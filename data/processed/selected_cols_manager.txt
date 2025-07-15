@@ -16,4 +16,3 @@ area_type_Rural
 area_type_Urban
 style_Hi-Rise
 style_Mid-Rise
-building_class_A

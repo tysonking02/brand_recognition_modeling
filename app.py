@@ -182,7 +182,7 @@ markets = ['All'] + sorted(eligible_markets)
 
 atl_i = markets.index("Atlanta, GA")
 
-st.sidebar.subheader('Brand Recognition')
+st.sidebar.subheader('Brand Recognition Contribution')
 
 market = st.sidebar.selectbox("Market", markets, index=atl_i)
 

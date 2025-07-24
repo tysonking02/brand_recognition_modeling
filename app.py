@@ -182,6 +182,8 @@ markets = ['All'] + sorted(eligible_markets)
 
 atl_i = markets.index("Atlanta, GA")
 
+st.sidebar.subheader('Brand Recognition')
+
 market = st.sidebar.selectbox("Market", markets, index=atl_i)
 
 filtered = filtered[filtered['market'] == market] if market != 'All' else filtered
@@ -380,7 +382,6 @@ for mgr in manager_select:
     })
 
 df_display = pd.DataFrame(data)
-st.subheader('Brand Recognition')
 
 html_table = df_display.to_html(escape=False, index=False)
 

@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.preprocessing import PolynomialFeatures
 
-def train_ols_model(interaction: bool):
+def train_ols_model(interaction):
     model_name = "All Markets - Aided - Manager - Interaction Effects" if interaction else "All Markets - Aided - Manager"
 
     # Read selected features
